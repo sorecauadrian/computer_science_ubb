@@ -1,0 +1,3 @@
+Să se aloce un vector bidimensional de �ntregi de dimensiune N * N (N citit de la tastatură) și să se completeze cu numere �n ordine crescătoare. Să se afișeze suma numerelor impare de pe fiecare coloană.
+
+exemplu: pentru N = 3, prima linie va fi 1,2,3, a doua 4,5,6 și a treia 7,8,9; se va afișa 8 5 12

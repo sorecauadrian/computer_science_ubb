@@ -1,0 +1,10 @@
+N * (log2N)^2 + N^2 * (log2N) belongs to which of the following classes?
+
+a) Ω(N*(log2N))
+b) O(N^2)
+c) Θ(N^2 * (log2N))
+d) O(N^3)
+e) Ω(N^5)
+f) none of them
+
+answer: a, d 

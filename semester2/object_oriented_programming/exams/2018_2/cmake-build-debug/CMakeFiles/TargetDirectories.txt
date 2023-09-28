@@ -1,0 +1,3 @@
+/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/2018_2/cmake-build-debug/CMakeFiles/2018_2.dir
+/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/2018_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/2018_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

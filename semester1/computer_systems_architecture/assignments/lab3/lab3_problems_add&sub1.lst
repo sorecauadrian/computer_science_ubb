@@ -1,0 +1,53 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; (a + b - d) + (a - b - d)
+    14                                      ; a - byte
+    15 00000000 08                          a db 8
+    16                                      
+    17                                      ; b - word
+    18 00000001 0400                        b dw 4
+    19                                      
+    20                                      ; d - qword
+    21 00000003 0200000000000000            d dq 2
+    22                                      
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26 00000000 A0[00000000]                    mov al, [a] ; al <- a
+    27 00000005 B400                            mov ah, 0   ; ax <- a
+    28 00000007 660305[01000000]                add ax, [b] ; ax <- a + b
+    29 0000000E 6689C2                          mov dx, ax  ; dx <- a + b 
+    30 00000011 B800000000                      mov eax, 0  ; eax <- 0
+    31 00000016 6689D0                          mov ax, dx  ; eax <- a + b
+    32 00000019 BA00000000                      mov edx, 0  ; edx:eax <- a + b
+    33 0000001E 2B05[03000000]                  sub eax, [d]
+    34 00000024 1B15[07000000]                  sbb edx, [d + 4]; edx:eax <- a + b - d
+    35                                          
+    36 0000002A 8A0D[00000000]                  mov cl, [a] ; cl <- a
+    37 00000030 B500                            mov ch, 0   ; cx <- a
+    38 00000032 662B0D[01000000]                sub cx, [b] ; cx <- a - b
+    39 00000039 6689CB                          mov bx, cx  ; bx <- a - b
+    40 0000003C B900000000                      mov ecx, 0  ; ecx <- 0
+    41 00000041 6689D9                          mov cx, bx  ; ecx <- a - b
+    42 00000044 BB00000000                      mov ebx, 0  ; ebx:ecx <- a - b
+    43 00000049 2B0D[03000000]                  sub ecx, [d]
+    44 0000004F 2B1D[07000000]                  sub ebx, [d + 4]; ebx:ecx <- a - b - d
+    45                                          
+    46 00000055 01C8                            add eax, ecx
+    47 00000057 11DA                            adc edx, ebx; edx:eax <- (a + b - d) + (a - b - d)
+    48                                          
+    49                                          ; the result is going to be stored in edx:eax
+    50                                          ; exit(0)
+    51 00000059 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    52 0000005B FF15[00000000]                  call    [exit]       ; call exit to terminate the program
+    53                                  
