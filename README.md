@@ -1,10 +1,9 @@
 # computer_science_ubb
 
-all my projects, exams and notes during my bachelor's degree at the faculty of mathematics and informatics, informatics in english.
+work done for ubb cluj-napoca, faculty of mathematics and informatics, informatics in english
 
 <ul>
     <li>:smiley: semester1
-    
         <ul>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/main/semester1/archives">
@@ -42,10 +41,8 @@ all my projects, exams and notes during my bachelor's degree at the faculty of m
                 </a>
             </li>
         </ul>
-        
     </li>
     <li>:pensive: semester2
-    
         <ul>
        	    <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/main/semester2/data_structures_and_algorithms">
@@ -78,10 +75,8 @@ all my projects, exams and notes during my bachelor's degree at the faculty of m
                 </a>
             </li> 
         </ul>
-        
     </li>
     <li>:heart_eyes: semester3
-    
         <ul>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/main/semester3/advanced_programming_methods">
@@ -109,6 +104,5 @@ all my projects, exams and notes during my bachelor's degree at the faculty of m
                 </a>
             </li>
         </ul>
-        
     </li>
 </ul>
