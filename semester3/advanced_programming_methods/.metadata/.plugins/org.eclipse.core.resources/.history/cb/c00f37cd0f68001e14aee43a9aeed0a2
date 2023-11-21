@@ -1,0 +1,41 @@
+package Repository;
+
+import Model.Participant;
+
+public class Repository 
+{
+	private Participant[] participants;
+	private int length;
+	
+	public Repository()
+	{
+		this.participants = new Participant[32];
+		this.length = 0;
+	}
+	
+	public void add(Participant participant) {this.participants[this.length++] = participant;}
+	public void remove(Participant participant)
+	{
+		for (int i = 0; i < this.length; i++)
+			if (are_equal(this.participants[i], participant))
+			{
+				for (int j = i; j < this.length - 1; i++)
+					this.participants[j] = this.participants[j + 1];
+				this.length--;
+				break;
+			}
+	}
+	public int get_length() {return this.length;}
+	public Participant[] get_list() {return this.participants;}
+	public boolean is_in_list(Participant participant)
+	{
+		for (int i = 0; i < this.length; i++)
+			if (are_equal(this.participants[i], participant))
+				return true;
+		return false;
+	}
+	
+	private boolean are_equal(Participant participant1, Participant participant2) {return participant1.get_name() == participant2.get_name() && 
+																							participant1.get_role().equals(participant2.get_role()) &&
+																							participant1.presented() == participant2.presented();}
+}

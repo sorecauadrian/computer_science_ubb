@@ -1,0 +1,13 @@
+package View;
+
+import Model.*;
+import Controller.*;
+import java.util.Scanner;
+
+public class View 
+{
+	private Controller controller = new Controller();
+	private Scanner scanner = new Scanner(System.in);
+	
+	
+}

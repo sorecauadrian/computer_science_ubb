@@ -1,0 +1,36 @@
+package View;
+
+import Model.*;
+import Controller.*;
+import java.util.Scanner;
+
+public class View 
+{
+	private Controller controller = new Controller();
+	private Scanner scanner = new Scanner(System.in);
+	
+	public void menu()
+	{
+		System.out.println("menu");
+		System.out.println("1. add a new participant");
+		System.out.println("2. remove a participant");
+		System.out.println("3. print all the participants that presented");
+		System.out.println("0. exit");
+	}
+	
+	public void add_menu()
+	{
+		System.out.println("add");
+		System.out.println("1. student");
+		System.out.println("2. teacher");
+		System.out.println("3. specialist");
+	}
+	
+	public void remove_menu()
+	{
+		System.out.println("remove");
+		System.out.println("1. student");
+		System.out.println("2. teacher");
+		System.out.println("3. specialist");
+	}
+}

@@ -1,0 +1,232 @@
+ --------Execution Stack-------- 
+(string varf;(varf = /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in;(open(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf)))))))))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+
+ --------Execution Stack-------- 
+string varf
+(varf = /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in;(open(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf))))))))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(varf = /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in;(open(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf))))))))
+
+ -------- Symbol  Table -------- 
+varf -> 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+
+ --------Execution Stack-------- 
+varf = /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+(open(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf)))))))
+
+ -------- Symbol  Table -------- 
+varf -> 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(open(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf)))))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+
+ --------Execution Stack-------- 
+open(varf)
+(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf))))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(int varc;(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf))))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+int varc
+(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf)))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+(readFile(varf, varc);(print(varc);(readFile(varf, varc);(print(varc);close(varf)))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+readFile(varf, varc)
+(print(varc);(readFile(varf, varc);(print(varc);close(varf))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+(print(varc);(readFile(varf, varc);(print(varc);close(varf))))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 15
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+print(varc)
+(readFile(varf, varc);(print(varc);close(varf)))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 15
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+(readFile(varf, varc);(print(varc);close(varf)))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 15
+
+ -------- Output Console -------- 
+15
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+readFile(varf, varc)
+(print(varc);close(varf))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 15
+
+ -------- Output Console -------- 
+15
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+(print(varc);close(varf))
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 50
+
+ -------- Output Console -------- 
+15
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+print(varc)
+close(varf)
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 50
+
+ -------- Output Console -------- 
+15
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+close(varf)
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 50
+
+ -------- Output Console -------- 
+15
+50
+
+ --------  File  Table  -------- 
+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+
+
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+varf -> /home/sorecauadrian/computer_science/semester3/advanced_programming_methods/lab/lab3/test.in
+varc -> 50
+
+ -------- Output Console -------- 
+15
+50
+
+ --------  File  Table  -------- 
+
+

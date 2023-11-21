@@ -1,0 +1,1 @@
+A client sends to the server a string. The server returns the count of spaces in the string.

@@ -1,0 +1,30 @@
+package Controller;
+
+import Model.Participant;
+import Repository.*;
+
+public class Controller implements Controller_Interface
+{
+	private Repository repository; // private Repository_Interface repository
+	
+	public Controller() {this.repository = new Repository();}
+	
+	public void add(Participant participant) throws Exception
+	{
+		if (this.repository.is_in_list(participant))
+			throw new Exception("participant already exists!\n");
+		this.repository.add(participant);
+	}
+	public void delete(Participant participant) throws Exception
+	{
+		if (!this.repository.is_in_list(participant))
+			throw new Exception("participant doesn't exist!\n");
+		this.repository.add(participant);
+	}
+	public int get_length() {return this.repository.get_length();}
+	public Participant[] get_list() {return this.repository.get_list();}
+	public Participant[] get_filtered_list()
+	{
+		
+	}
+}

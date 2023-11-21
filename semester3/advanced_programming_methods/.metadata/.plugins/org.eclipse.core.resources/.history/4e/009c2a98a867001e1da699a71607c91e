@@ -1,0 +1,12 @@
+package Controller;
+
+import Model.Participant;
+
+public interface Controller_Interface 
+{
+	public void add(Participant participant) throws Exception;
+	public void remove(Participant participant) throws Exception;
+	public int get_length();
+	public Participant[] get_list();
+	public Participant[] get_filtered_list();
+}

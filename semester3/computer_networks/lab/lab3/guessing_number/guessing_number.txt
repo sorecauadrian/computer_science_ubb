@@ -1,0 +1,1 @@
+Implement the Python concurrent example from lab2 to work with UDP. You no longer need threads to be able to serve multiple clients – so the implementation should be much shorter.

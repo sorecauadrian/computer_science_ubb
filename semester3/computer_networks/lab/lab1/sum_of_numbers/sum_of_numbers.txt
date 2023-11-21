@@ -1,0 +1,1 @@
+A client sends to the server an array of numbers. Server returns the sum of the numbers.

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/sorecauadrian/computer_science/semester3/advanced_programming_methods/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1605563081.index
+3141775227.index

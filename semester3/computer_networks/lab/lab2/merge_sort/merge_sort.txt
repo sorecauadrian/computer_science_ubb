@@ -1,0 +1,1 @@
+The clients send an integer number N and an array of N float values. The server will merge sort the numbers received from all clients until it gets an empty array of floats (N=0). The server returns to each client the size of the merge-sorted array followed by the merge-sorted arrays of all floats from all clients.

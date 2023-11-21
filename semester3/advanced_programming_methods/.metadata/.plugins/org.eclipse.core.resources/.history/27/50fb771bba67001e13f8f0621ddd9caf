@@ -1,0 +1,94 @@
+package View;
+
+import Model.*;
+import Controller.*;
+import java.util.Scanner;
+
+public class View 
+{
+	private Controller controller = new Controller();
+	private Scanner scanner = new Scanner(System.in);
+	
+	public void menu()
+	{
+		System.out.println("menu");
+		System.out.println("1. add a new participant");
+		System.out.println("2. remove a participant");
+		System.out.println("3. print all the participants that presented");
+		System.out.println("0. exit");
+	}
+	
+	public void add_menu()
+	{
+		System.out.println("add");
+		System.out.println("1. student");
+		System.out.println("2. teacher");
+		System.out.println("3. specialist");
+	}
+	
+	public void remove_menu()
+	{
+		System.out.println("remove");
+		System.out.println("1. student");
+		System.out.println("2. teacher");
+		System.out.println("3. specialist");
+	}
+	
+	public void add_participant() throws Exception
+	{
+		this.add_menu();
+		
+		int option = Integer.parseInt(this.scanner.nextLine());
+		System.out.println("the name of the new participant:");
+		String name = this.scanner.nextLine();
+		System.out.println("did the participant present?");
+		boolean presented = Boolean.parseBoolean(this.scanner.nextLine());
+		
+		if (option == 1)
+			this.controller.add(new Student(name, presented));
+		else if (option == 2)
+			this.controller.add(new Teacher(name, presented));
+		else if (option == 3)
+			this.controller.add(new Specialist(name, presented));
+		else
+			System.out.println("unknown command.");
+	}
+	
+	public void remove_participant() throws Exception
+	{
+		this.remove_menu();
+		
+		int option = Integer.parseInt(this.scanner.nextLine());
+		System.out.println("the name of the participant:");
+		String name = this.scanner.nextLine();
+		System.out.println("did the participant present?");
+		boolean presented = Boolean.parseBoolean(this.scanner.nextLine());
+		
+		if (option == 1)
+			this.controller.remove(new Student(name, presented));
+		else if (option == 2)
+			this.controller.remove(new Teacher(name, presented));
+		else if (option == 3)
+			this.controller.remove(new Specialist(name, presented));
+		else
+			System.out.println("unknown command.");
+	}
+	
+	public void print_filtered_participants()
+	{
+		for (Participant participant : this.controller.get_filtered_list())
+			System.out.println(participant);
+	}
+	
+	public void premade_list() throws Exception
+	{
+		this.controller.add(new Student("adi", true));
+		this.controller.add(new Teacher("vancea", true));
+		this.controller.add(new Student("rudolf", false));
+		this.controller.add(new Specialist("suciu dan mircea", true));
+		this.controller.add(new Teacher("dadi", false));
+		this.controller.add(new Specialist("arthur", false));
+	}
+	
+	public void 
+}
