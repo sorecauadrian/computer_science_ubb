@@ -1,6 +1,6 @@
 # computer_science_ubb
 
-work done for ubb cluj-napoca, faculty of mathematics and informatics, informatics in english
+work done for bbu cluj-napoca, faculty of mathematics and informatics, informatics in english
 
 <ul>
     <li>:smiley: semester1
@@ -58,6 +58,9 @@ work done for ubb cluj-napoca, faculty of mathematics and informatics, informati
                 </a>
             </li>
             <li>
+                	:money_with_wings: fundamentals of entrepreneurship
+            </li>
+            <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester2/geometry">
                     :triangular_ruler: geometry
                 </a>
@@ -109,3 +112,61 @@ work done for ubb cluj-napoca, faculty of mathematics and informatics, informati
         </ul>
     </li>
 </ul>
+
+### i would like to provide you with my opinion on the difficulties of the exams so that you'll know when to take them in the exam session:
+
+## semester 1
+
+> for maximum grade:
+
+:persevere: computer systems architecture (vancea alexandru)
+
+:slightly_frowning_face: mathematical analysis (nechita mihai)
+
+:grimacing: computational logic (lupea mihaiela)
+
+:slightly_smiling_face: linear algebra (crivei septimiu) 
+
+:grin: fundamentals of programming (molnar arthur)
+
+> for passing:
+
+:tired_face: computer system architecture (vancea alexandru)
+
+:disappointed: computational logic (lupea mihaiela)
+
+:slightly_smiling_face: mathematical analysis (nechite mihai)
+
+:smile: fundamentals of programming (molnar arthur)
+
+:star_struck: linear algebra (crivei septimiu)
+
+## semester 2
+
+> for maximum grade:
+
+:triumph: operating systems (boian rareș)
+
+:sweat: data structures and algorithms (lupșa dana)
+
+:worried: dynamical systems (buica adriana)
+
+:wink: object oriented programming (bocicor maria iuliana)
+
+:grinning: geometry (simion iulian) 
+
+:star_struck: graph algorithms (lupșa radu)
+
+> for passing:
+
+:confounded: operating systems (boian rareș)
+
+:worried: object oriented programming (bocicor maria iuliana) 
+
+:grimacing: dynamical systems (buica adriana) 
+
+:neutral_face: data structures and algorithms (lupșa dana) 
+
+:slightly_smiling_face: geometry (simion iulian)
+
+:star_struck: graph algorithms (lupșa radu)
