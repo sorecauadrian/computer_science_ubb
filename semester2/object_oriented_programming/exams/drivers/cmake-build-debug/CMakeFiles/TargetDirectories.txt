@@ -1,5 +1,0 @@
-/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/drivers/cmake-build-debug/CMakeFiles/drivers.dir
-/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/drivers/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/drivers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/drivers/cmake-build-debug/CMakeFiles/drivers_autogen_timestamp_deps.dir
-/home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/drivers/cmake-build-debug/CMakeFiles/drivers_autogen.dir

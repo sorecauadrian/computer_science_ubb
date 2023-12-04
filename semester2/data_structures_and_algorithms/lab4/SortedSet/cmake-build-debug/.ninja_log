@@ -1,7 +1,0 @@
-# ninja log v5
-3	133	1686152903667427244	CMakeFiles/SortedSet.dir/SortedSetIterator.cpp.o	5ffd316e061ffd80
-1	305	1686156483917092868	CMakeFiles/SortedSet.dir/ShortTest.cpp.o	bc9620ee2dc74a52
-1	352	1686153688671514629	CMakeFiles/SortedSet.dir/ExtendedTest.cpp.o	1e6c187035546127
-305	382	1686156483993093496	SortedSet	c390853cdf8ab77e
-1	299	1686155555643425069	CMakeFiles/SortedSet.dir/App.cpp.o	8d8fd7a759e89bfb
-1	50	1686156409452464769	CMakeFiles/SortedSet.dir/SortedSet.cpp.o	8fd6ee57a2c8db6f

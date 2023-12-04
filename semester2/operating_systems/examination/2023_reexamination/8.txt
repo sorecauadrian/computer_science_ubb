@@ -1,4 +1,0 @@
-What will be the effect of replacing calls to pthread_mutex_lock with calls to sem_post?
-
-solution:
-

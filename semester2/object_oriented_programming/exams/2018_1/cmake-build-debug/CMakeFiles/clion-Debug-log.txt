@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/sorecauadrian/computer_science/semester2/object_oriented_programming/exams/2018_1 Select CMakeLists.txt

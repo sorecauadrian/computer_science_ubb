@@ -1,8 +1,0 @@
-Find recursively in a directory all ".c" files having more than 500 lines. Stop after finding 2 such files.
-
-	Suggested Commands
-find, wc, expr, while, break
-
-	Expected Result
-dir/11.c
-dir/d/a/13.c

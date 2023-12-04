@@ -1,1 +1,0 @@
-2. Write a C program that creates a linear hierarchy of n processes (a parent process creates a child process, which in turn creates a child process, and so on).

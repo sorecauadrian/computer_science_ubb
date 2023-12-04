@@ -1,3 +1,0 @@
-When would you use execv instead of execl?
-
-solution:

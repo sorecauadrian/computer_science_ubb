@@ -1,4 +1,0 @@
-What can you do as a software developer to prevent deadlocks?
-
-solution:
-eliminate circular wait: choose an order for your resources and always lock them in the same order.

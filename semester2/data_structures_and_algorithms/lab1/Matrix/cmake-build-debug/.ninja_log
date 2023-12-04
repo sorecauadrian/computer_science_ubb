@@ -1,6 +1,0 @@
-# ninja log v5
-1	365	1680091969247222744	CMakeFiles/Matrix.dir/Matrix.cpp.o	875d1b86998211e1
-365	451	1680091969335221849	Matrix	e6adf0cfb68757c7
-1	115	1680091968999225266	CMakeFiles/Matrix.dir/ShortTest.cpp.o	b05cae30b1da4350
-1	628	1680090626129326017	CMakeFiles/Matrix.dir/ExtendedTest.cpp.o	a4de50f22d6cf237
-1	38	1680089560569870747	CMakeFiles/Matrix.dir/main.cpp.o	53cde69452f56734

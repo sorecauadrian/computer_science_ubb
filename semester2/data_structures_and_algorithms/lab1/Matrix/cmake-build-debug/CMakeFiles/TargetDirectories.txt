@@ -1,3 +1,0 @@
-/home/sorecauadrian/computer_science/semester2/data_structures_and_algorithms/lab1/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir
-/home/sorecauadrian/computer_science/semester2/data_structures_and_algorithms/lab1/Matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sorecauadrian/computer_science/semester2/data_structures_and_algorithms/lab1/Matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
