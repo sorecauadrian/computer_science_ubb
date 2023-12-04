@@ -1,0 +1,458 @@
+ --------Execution Stack-------- 
+(int a;(int b;(a = 5;(while(a > 0) (a = a - 1;b = b + 2);print(b)))))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+int a
+(int b;(a = 5;(while(a > 0) (a = a - 1;b = b + 2);print(b))))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(int b;(a = 5;(while(a > 0) (a = a - 1;b = b + 2);print(b))))
+
+ -------- Symbol  Table -------- 
+a -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+int b
+(a = 5;(while(a > 0) (a = a - 1;b = b + 2);print(b)))
+
+ -------- Symbol  Table -------- 
+a -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(a = 5;(while(a > 0) (a = a - 1;b = b + 2);print(b)))
+
+ -------- Symbol  Table -------- 
+a -> 0
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+a = 5
+(while(a > 0) (a = a - 1;b = b + 2);print(b))
+
+ -------- Symbol  Table -------- 
+a -> 0
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(while(a > 0) (a = a - 1;b = b + 2);print(b))
+
+ -------- Symbol  Table -------- 
+a -> 5
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 5
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(a = a - 1;b = b + 2)
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 5
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+a = a - 1
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 5
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 4
+b -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 4
+b -> 2
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(a = a - 1;b = b + 2)
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 4
+b -> 2
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+a = a - 1
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 4
+b -> 2
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 3
+b -> 2
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 3
+b -> 4
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(a = a - 1;b = b + 2)
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 3
+b -> 4
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+a = a - 1
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 3
+b -> 4
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 2
+b -> 4
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 2
+b -> 6
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(a = a - 1;b = b + 2)
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 2
+b -> 6
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+a = a - 1
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 2
+b -> 6
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 1
+b -> 6
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 1
+b -> 8
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(a = a - 1;b = b + 2)
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 1
+b -> 8
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+a = a - 1
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 1
+b -> 8
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+b = b + 2
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 0
+b -> 8
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+while(a > 0) (a = a - 1;b = b + 2)
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 0
+b -> 10
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+print(b)
+
+ -------- Symbol  Table -------- 
+a -> 0
+b -> 10
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> 0
+b -> 10
+
+ -------- Output Console -------- 
+10
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+

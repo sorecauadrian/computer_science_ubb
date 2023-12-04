@@ -1,0 +1,174 @@
+ --------Execution Stack-------- 
+(reference(int) v;(new(v, 20);(print(readHeap(v));(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5))))))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+reference(int) v
+(new(v, 20);(print(readHeap(v));(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5)))))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(new(v, 20);(print(readHeap(v));(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5)))))
+
+ -------- Symbol  Table -------- 
+v -> (0, int)
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+new(v, 20)
+(print(readHeap(v));(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5))))
+
+ -------- Symbol  Table -------- 
+v -> (0, int)
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+ --------Execution Stack-------- 
+(print(readHeap(v));(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5))))
+
+ -------- Symbol  Table -------- 
+v -> (1, int)
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 20
+
+
+ --------Execution Stack-------- 
+print(readHeap(v))
+(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5)))
+
+ -------- Symbol  Table -------- 
+v -> (1, int)
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 20
+
+
+ --------Execution Stack-------- 
+(writeHeap(v, 30);(new(v, 20);print(readHeap(v) + 5)))
+
+ -------- Symbol  Table -------- 
+v -> (1, int)
+
+ -------- Output Console -------- 
+20
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 20
+
+
+ --------Execution Stack-------- 
+writeHeap(v, 30)
+(new(v, 20);print(readHeap(v) + 5))
+
+ -------- Symbol  Table -------- 
+v -> (1, int)
+
+ -------- Output Console -------- 
+20
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 20
+
+
+ --------Execution Stack-------- 
+(new(v, 20);print(readHeap(v) + 5))
+
+ -------- Symbol  Table -------- 
+v -> (1, int)
+
+ -------- Output Console -------- 
+20
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 30
+
+
+ --------Execution Stack-------- 
+new(v, 20)
+print(readHeap(v) + 5)
+
+ -------- Symbol  Table -------- 
+v -> (1, int)
+
+ -------- Output Console -------- 
+20
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 30
+
+
+ --------Execution Stack-------- 
+print(readHeap(v) + 5)
+
+ -------- Symbol  Table -------- 
+v -> (2, int)
+
+ -------- Output Console -------- 
+20
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 30
+2 -> 20
+
+
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+v -> (2, int)
+
+ -------- Output Console -------- 
+20
+25
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+2 -> 20
+
+
