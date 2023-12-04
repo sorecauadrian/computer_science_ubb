@@ -1,0 +1,46 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; a,b,c - byte
+    14 00000000 FF                          a db 255
+    15 00000001 FF                          b db 255
+    16 00000002 FF                          c db 255
+    17                                      
+    18                                      ; d - word
+    19 00000003 0004                        d dw 1024
+    20                                      
+    21                                      ; x, y, z - constant values
+    22 00000005 64                          x db 100
+    23 00000006 4B                          y db 75
+    24 00000007 05                          z db 5
+    25                                      
+    26                                  ; our code starts here
+    27                                  segment code use32 class=code
+    28                                      start:
+    29                                          ; (100*a + d + 5 - 75*b)/(c - 5)
+    30                                          ; the result is going to be stored in al
+    31 00000000 A0[06000000]                    mov al, [y] ; al -> 75
+    32                                          mul [b]     ; ax -> 75*b
+    32          ******************       error: operation size not specified
+    33 00000005 6689C2                          mov dx, ax  ; dx -> 75*b
+    34 00000008 A0[05000000]                    mov al, [x] ; al -> 100
+    35                                          mul [a]     ; ax -> 100*a
+    35          ******************       error: operation size not specified
+    36 0000000D 660305[03000000]                add ax, [d] ; ax -> 100*a + d
+    37 00000014 660305[07000000]                add ax, [z] ; ax -> 100*a + d + 5
+    38 0000001B 6629D0                          sub ax, dx  ; ax -> 100*a + d + 5 - 75*b
+    39 0000001E 8A15[02000000]                  mov dl, [c] ; dl -> c
+    40 00000024 2A15[07000000]                  sub dl, [z] ; dl -> c - 5
+    41 0000002A F6F2                            div dl      ; al -> ax / dl, ah -> ax % dl
+    42                                          
+    43 0000002C 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    44 0000002E FF15[00000000]                  call    [exit]       ; call exit to terminate the program

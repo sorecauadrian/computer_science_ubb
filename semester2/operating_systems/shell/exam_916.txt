@@ -1,0 +1,3 @@
+write a shell script that receives as command line arguments a character sequence S that does not contain whitespaces and, after the sequence S, there can be any number of arguments. For each argument after the sequence S:
+	- if the argument is a regular file, the script will report if the sequence S is found on at most 3 distinct lines from the file.
+	- if the argument is a folder, the script will report if it contains at least 3 items (nonrecursive) whose name contain the sequence S (where item can be a file, folder, link, etc)

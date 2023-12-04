@@ -1,0 +1,68 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; 1/a + 200*b - c/(d + 1) + x/a - e
+    14                                      
+    15                                      ; a, b - word
+    16 00000000 0100                        a dw 1
+    17 00000002 0100                        b dw 1
+    18                                      
+    19                                      ; c, d - byte
+    20 00000004 02                          c db 2
+    21 00000005 01                          d db 1
+    22                                      
+    23                                      ; e - doubleword
+    24 00000006 01000000                    e dd 1
+    25                                      
+    26                                      ; x - qword
+    27 0000000A 0100000000000000            x dq 1
+    28                                  
+    29                                      ;result - auxiliar variable (double word)
+    30 00000012 00000000                    result dd 0
+    31                                      
+    32                                  ; our code starts here
+    33                                  segment code use32 class=code
+    34                                      start:
+    35                                          ; signed
+    36 00000000 66B80100                        mov ax, word 1  ; ax <- 1
+    37 00000004 6699                            cwd             ; dx:ax <- 1
+    38 00000006 66F73D[00000000]                idiv word [a]   ; ax <- 1/a
+    39 0000000D 6689C3                          mov bx, ax      ; bx <- 1/a
+    40 00000010 66B8C800                        mov ax, word 200; ax <- 200
+    41 00000014 66F72D[02000000]                imul word [b]   ; dx:ax <- 200*b
+    42 0000001B 66B90000                        mov cx, word 0  ; cx <- 0
+    43 0000001F 6601C3                          add bx, ax      
+    44 00000022 6611D1                          adc cx, dx      ; cx:bx <- 1/a + 200*b
+    45 00000025 A0[04000000]                    mov al, byte [c]; al <- c
+    46 0000002A 6698                            cbw             ; ax <- c
+    47 0000002C 8A15[05000000]                  mov dl, byte [d]; dl <- d
+    48 00000032 FEC2                            inc dl          ; dl <- d + 1
+    49 00000034 F6FA                            idiv byte dl    ; al <- c/(d + 1)
+    50 00000036 6698                            cbw             ; ax <- c/(d + 1)
+    51 00000038 6629C3                          sub bx, ax
+    52 0000003B 6683D900                        sbb cx, 0       ; cx:bx <- 1/a + 200*b - c/(d + 1)
+    53 0000003F 66891D[12000000]                mov [result], bx
+    54 00000046 66890D[14000000]                mov [result + 2], cx; result <- 1/a + 200*b - c/(d + 1)
+    55                                          
+    56 0000004D 66A1[00000000]                  mov ax, word [a]; ax <- a
+    57 00000053 98                              cwde            ; eax <- a
+    58 00000054 89C3                            mov ebx, eax    ; ebx <- a
+    59 00000056 A1[0A000000]                    mov eax, [x] 
+    60 0000005B 8B15[0E000000]                  mov edx, [x + 4]; edx:eax <- x
+    61 00000061 F7FB                            idiv ebx        ; eax <- x/a
+    62 00000063 2B05[06000000]                  sub eax, [e]    ; eax <- x/a - e
+    63 00000069 0305[12000000]                  add eax, [result]; eax <- 1/a + 200*b - c/(d + 1) + x/a - e
+    64                                          
+    65                                          
+    66                                          ; exit(0)
+    67 0000006F 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    68 00000071 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

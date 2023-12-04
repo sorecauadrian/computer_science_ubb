@@ -1,0 +1,6 @@
+Write a shell script that receives as command line arguments of the type username, files, directories and numbers, and processes each argument such that:
+	- for each directory prints the name of the largest 3 files from it and its subdirectories in reverse order of their size
+	- each valid username is printed in the file myusernames.txt on a separate line, sorted in alphabetical order. Usernames that occure several times among cmd line arguments will appear in the file only once.
+	- counts the number of files n and prints the number n and how many of these files have writing permissions.
+	- calculates the average of the numbers and prints it on the screen.
+	- anything else is ignored.

@@ -1,0 +1,97 @@
+     1                                  ; printf("%s", "hello world");
+     2                                  
+     3                                  ; format db "%s", 0
+     4                                  ; strh db "hello world", 0
+     5                                  ; push strh
+     6                                  ; push format
+     7                                  ; call [printf]
+     8                                  
+     9                                  bits 32 ; assembling for the 32 bits architecture
+    10                                  
+    11                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+    12                                  global start        
+    13                                  
+    14                                  ; declare external functions needed by our program
+    15                                  extern exit, printf       ; tell nasm that exit exists even if we won't be defining it
+    16                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    17                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    18                                  import printf msvcrt.dll
+    19                                  
+    20                                  ; our data is declared here (the variables needed by our program)
+    21                                  segment data use32 class=data
+    22 00000000 785634124D3C2C1A76-         s dd 12345678h, 1A2C3C4Dh, 98FCDC76h
+    22 00000009 DCFC98             
+    23                                      lens equ ($ - s) / 4
+    24 0000000C 0A                          ten db 10
+    25 0000000D 00                          possible_palindrome db 0
+    26                                      
+    27 0000000E <res 00000003>              d resb lens
+    28                                      ; d db 2Ch, FCh
+    29 00000011 <res 00000004>              digitsOfBase10Number resb 4     ; the number can only have maximum 3 digits if it's stored on 8 bits, so we're reserving 4 bytes
+    30                                  
+    31                                  ; our code starts here
+    32                                  segment code use32 class=code
+    33                                      start:
+    34                                          ; A list of doublewords is given. Obtain the list made out of the low bytes of the high words of each doubleword from the given list with the property that these bytes are palindromes in base 10.
+    35 00000000 BE[00000000]                    mov esi, s                      ; esi <- offset(s)
+    36 00000005 BF[0E000000]                    mov edi, d                      ; edi <- offset(d) 
+    37 0000000A B903000000                      mov ecx, lens                   ; ecx <- len(s)
+    38 0000000F FC                              cld                             ; df  <- 0
+    39 00000010 E343                            jecxz empty_list                ; if ecx == 0
+    40                                                                              ; that's it                                
+    41                                          repeat:                         ; while ecx != 0 
+    42 00000012 51                                  push ecx                        
+    43 00000013 AD                                  lodsd                           ; eax <- [esi], esi += 4 (pointing the next dword)
+    44 00000014 C1E810                              shr eax, 16                     ; bringing the 16-23 bits to the 0-7 position,so the value needed will be stored in al                      
+    45 00000017 30E4                                xor ah, ah                      ; ah <- 0 (ax <- al)
+    46                                              
+    47                                              ; we're verifying if the value in al is a palindrome
+    48 00000019 BB[11000000]                        mov ebx, digitsOfBase10Number   ; ebx <- offset(digitsOfBase10Number) 
+    49 0000001E A2[0D000000]                        mov [possible_palindrome], al   ; [possible_palindrome] <- al
+    50                                              
+    51                                              ; we're storing the digits in base 10 of ax in an auxiliar variable
+    52                                              dividing:                       ; while true
+    53 00000023 F635[0C000000]                          div byte [ten]                  ; ah <- ax % 10, 
+    54                                                                                  ; al <- ax / 10
+    55 00000029 8823                                    mov [ebx], ah                   ; [ebx] <- ah
+    56 0000002B 43                                      inc ebx                         ; ebx++
+    57 0000002C 3C00                                    cmp al, 0                       ; if al == 0
+    58 0000002E 7404                                    je done_storing                     ; break
+    59 00000030 30E4                                    xor ah, ah                      ; ah <- 0 (ax <- al)
+    60 00000032 EBEF                                jmp dividing                    ;
+    61                                              
+    62                                              done_storing:                       
+    63                                              ; we got the digits stored in digitsOfBase10Number
+    64                                              
+    65                                              
+    66                                              ; we're going to check if the digits stored in digitsOfBase10Number form a palindrome
+    67 00000034 4B                                  dec ebx                         ; ebx <- offset(last element from digitsOfBase10Number)
+    68 00000035 B9[11000000]                        mov ecx, digitsOfBase10Number   ; ecx <- offset(first element from digitsOfBase10Number)
+    69 0000003A 89DA                                mov edx, ebx                    ; edx <- offset(last element from digitsOfBase10Number) (so that we're not exceeding this limit)
+    70                                              
+    71                                              ; we're going through the variable from the beggining and from the end and we're checking if the pairs are equal
+    72                                              comparing_digits:               ; while true
+    73 0000003C 8A03                                    mov al, [ebx]                   ; al <- [ebx] 
+    74 0000003E 8A21                                    mov ah, [ecx]                   ; ah <- [ecx]
+    75 00000040 38E0                                    cmp al, ah                      ; if al != ah
+    76 00000042 750E                                    jne end_of_repeat                   ; we don't have a palindrome, so we're going to check the next number
+    77 00000044 4B                                      dec ebx                         ; ebx--
+    78 00000045 41                                      inc ecx                         ; ecx++
+    79 00000046 39D1                                    cmp ecx, edx                    ; if ecx > edx
+    80 00000048 7702                                    ja found_palindrome                 ; break
+    81 0000004A EBF0                                jmp comparing_digits            ;
+    82                                              
+    83                                              ; we found that the digits from digitsOfBase10Number form a palindrome
+    84                                              found_palindrome:
+    85                                              
+    86                                              ; storing the palindrome in 'd'
+    87 0000004C A0[0D000000]                        mov al, [possible_palindrome]   ; al <- value(possible_palindrome)
+    88 00000051 AA                                  stosb                           ; [edi] <- al, edi++
+    89                                              
+    90                                              end_of_repeat:
+    91 00000052 59                                  pop ecx
+    92 00000053 E2BD                            loop repeat                     ; ecx--
+    93                                          empty_list:
+    94                                          ; exit(0)
+    95 00000055 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    96 00000057 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
