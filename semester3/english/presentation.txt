@@ -1,0 +1,17 @@
+Introduction
+Hello, my name is Șorecău Adrian-Vasile, from group 927 and today i'm going to talk about logic programming, more precisely about Prolog and how to solve Zebra Puzzles using this programming language.
+
+Einstein's Riddle: An Overview
+The origin of this puzzle is a little unclear, but supposedly, this puzzle was created by Albert Einstein when he was young. The story goes like this: The worlds' rarest fish has been stolen from the city aquarium. The police have followed the scent to a street with five identical looking houses, but they can't search all the houses at once and if they pick the wrong one, the thief will know they're on his trail. It's up to you, the city's best detective, to solve the case. When you arrive on the scene, the police tell you what they know.
+
+each house's owner is of a different nationality, drinks a different beverage and smokes a different type of cigar. each house's interior walls are painted a differnt color. each house contains a different animal, one of which is the fish. and now you have some clues: ... .
+
+Logic Programming and Prolog
+Prolog, short for "Programming in Logic", is a logic programming language known for its simplicity and expressiveness in dealing with complex logical relationships. In Prolog, programs are constructed using facts and rules to define relationships and constraints. It's features are the goal-driven execution model and the backtracking mechanism.
+
+Transalting Einstein's Riddle into Prolog
+As you can see there, the predicates somewhereToTheLeft, somewhereToTheRight, exactlyToTheLeft, nextTo and somewhereBetween encode the relationships and constraints outlined in the puzzle's clues.
+The women predicate defines the characteristics of each woman and the stacys_resolution predicate is the query to find Stacy's resolution.
+
+Conclusion
+In conclusion, this project showcases Prolog's effectiveness in handling complex logical relationships.
