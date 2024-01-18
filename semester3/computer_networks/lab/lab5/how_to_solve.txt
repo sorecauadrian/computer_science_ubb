@@ -1,0 +1,92 @@
+lab5 - marinescu alexandru-ion
+(ceva similar da la test)
+
+ordine in care trebuie implementate cerintele
+dhcp (daca este nevoie)
+rutare statica
+nat (ne alegem noi o subretea si configuram router-ul aferent ei astfel incat sa putem din reteaua respectiva sa dam ping catre web server)
+
+
+
+pregatire
+- punem pc-urile
+- punem switch-urile (atentie la tip-ul lor)
+- punem router-ele (atentie la tip-ul lor)
+- punem server-ul
+- salveaza (optional)
+- incepem sa le legam:
+	- switch-urile le legam cu routerele (cabluri de cupru) (de preferat, folosim port-ul FastEthernet0/1 al switch-ului cu port-ul routerului (daca sunt mai multe switch-uri la un router, nu conteaza portul router-ului, atata timp cat e FastEthernet)).
+	- switch-urile le legam la pc-uri (cabluri de cupru) (restul FastEthernet-elor)
+	- punem cablurile seriale (rosii):
+		- luam fiecare router in parte si facem asa: oprim router-ul, adaugam un modul HWIC-2T si pornim router-ul.
+		- legam cablurile seriale (nu conteaza ordinea, trebuie doar sa retii care unde merge)
+	- legam router-ul de server (cablu de cupru punctat) (celalalt FastEthernet (0/1). oricum nu conteaza ordinea daca tii minte)
+
+
+
+configuram dhcp-ul
+- mergem la toate pc-urile -> config -> settings -> bifam dhcp si automatic
+- cu switch-urile n-avem treaba
+- mergem la toate router-ele -> config -> dam la toate FastEthernet-urile si cablurile seriale FOLOSITE si bifam On la Port Status
+- salvam (optional)
+
+
+
+alocam ip-uri
+- mergem la toate router-ele -> config -> dam la toate FastEthernet-urile si cablurile seriale FOLOSITE si ipv4 address o punem pe cea care ni se da in diagrama si masca la fel (/30 -> 255.255.255.252, /29 -> 255.255.255.248)
+- si la fel si la server
+
+
+
+rutare statica
+- mergem la router -> config -> static
+- la network punem reteaua unde ar vrea sa ajunga (ex: 192.168.1.0)
+- la mask punem 255.255.255.0
+- la next hop punem prin ce ip trebuie sa treaca (ex: 193.226.40.2)
+- aici stiu ca n-am explicat foarte mult, scuze
+
+configuram dhcp
+- mergem la fiecare router -> cli
+	- ip dhcp pool lan{nr lan}
+	- network 192.168.0.0 255.255.255.0
+	- default-router 192.168.0.1
+	- dns-server 192.168.0.3
+	- exit
+- mergem la fiecare router -> config
+	- la fiecare FastEthernet ii dam ip-ului valoarea pe care am dat-o mai inainte router-ului (192.168.0.1) si submask-ul 255.255.255.0
+- mergem la fiecare router -> cli
+	- scriem exit pana apare Router# si scriem "copy running-config startup-config"
+	- enter, exit si putem iesi
+- salvam (optional)
+
+
+
+verificare dhcp + rutare statica
+- intram la fiecare pc sa vedem daca are un ip asociat
+- intram la un pc random si scriem ping {ip-ul unui alt pc din alta subretea}
+
+
+nat
+- alegem subreteaua 192.168.1.0
+- dam pe router -> cli
+	-  trebuie sa stabilim nat inside si nat outside (ce intra in router si ce iese)
+	- interface FastEthernet0/0 (daca asta e cel prin care intra)
+	- ip nat inside
+	- exit
+	- interface FastEthernet 0/1 (daca asta e cel prin care iese)
+	- ip nat outside
+	- exit
+	- trebuie sa ne definim un access list pe acest router astfel incat ip-urile din interior sa iasa afara.
+	- ip access-list extended {numele nat-ului} (ex: nat-internet)
+	- ip 192.168.1.0 0.0.0.255 193.231.20.0 0.0.0.255
+	- exit
+	- trebuie sa facem overload-ul
+	- ip nat inside source list nat-internet interface {FastEthernet-ul din exterior} (ex: FastEthernet0/1)
+	- exit
+
+
+verificare nat
+- dam pe un pc din subreteaua selectata -> desktop -> command prompt
+- ping {ip-ul server-ului}
+
+

@@ -47,7 +47,7 @@ public class Controller
 
     public void conservativeGarbageCollector(List<ProgramState> programStateList)
     {
-        var heap = Objects.requireNonNull(programStateList.stream()
+        List<Integer> addresses = Objects.requireNonNull(programStateList.stream()
                 .map(p -> getAdressesFromSymbolTable
                         (
                                 p.getSymbolTable().getContent().values(),
@@ -59,7 +59,7 @@ public class Controller
         programStateList.forEach(programState ->
                 programState.getHeapTable().setContent
                         (
-                        garbageCollector(heap,
+                        garbageCollector(addresses,
                                         programStateList.getFirst().getHeapTable().getContent()
                         )));
     }
@@ -76,8 +76,8 @@ public class Controller
             });
         while (!programStateList.isEmpty())
         {
-            conservativeGarbageCollector(programStateList);
             oneStepForAllPrograms(programStateList);
+            conservativeGarbageCollector(programStateList);
             programStateList = removeCompletedPrograms(this.repository.getProgramList());
         }
         this.executor.shutdownNow();

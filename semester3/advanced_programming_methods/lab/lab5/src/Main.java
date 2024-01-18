@@ -21,7 +21,7 @@ import view.command.RunExampleCommand;
 
 public class Main
 {
-    private static final Statement example1, example2, example3, example4, example5, example6, example7;
+    private static final Statement example1, example2, example3, example4, example5, example6, example7, example8;
     static
     {
         // int a;
@@ -281,12 +281,55 @@ public class Main
                         )
                 )
         );
+
+        // Reference int a;
+        // int counter;
+        // while (counter < 10)
+        // {
+        //      fork
+        //      (
+        //          fork
+        //          (
+        //              new(a, counter);
+        //              print(readHeap(a));
+        //          )
+        //      )
+        //      counter++;
+        // }
+        example8 = new CompoundStatement
+        (
+                new VariableDeclarationStatement("a", new ReferenceType(new IntType())),
+                new CompoundStatement
+                (
+                        new VariableDeclarationStatement("counter", new IntType()),
+                        new WhileStatement
+                        (
+                                new RelationalExpression("<", new VariableExpression("counter"), new ValueExpression(new IntValue(10))),
+                                new CompoundStatement
+                                (
+                                        new ForkStatement
+                                        (
+                                                new ForkStatement
+                                                (
+                                                        new CompoundStatement
+                                                        (
+                                                                new AllocateHeapStatement("a", new VariableExpression("counter")),
+                                                                new PrintStatement(new ReadHeapExpression(new VariableExpression("a")))
+                                                        )
+                                                )
+                                        ),
+                                        new AssignmentStatement("counter", new ArithmeticExpression('+', new VariableExpression("counter"), new ValueExpression(new IntValue(1))))
+                                )
+
+                        )
+                )
+        );
     }
 
     public static void main(String[] args)
     {
-        ProgramState state1, state2, state3, state4, state5, state6, state7;
-        Controller controller1, controller2, controller3, controller4, controller5, controller6, controller7;
+        ProgramState state1, state2, state3, state4, state5, state6, state7, state8;
+        Controller controller1, controller2, controller3, controller4, controller5, controller6, controller7, controller8;
 
         state1 = new ProgramState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), new MyDictionary<>(), new MyHeap<>(), example1);
         RepositoryInterface repository1 = new Repository("log1.txt");
@@ -323,6 +366,11 @@ public class Main
         repository7.addState(state7);
         controller7 = new Controller(repository7);
 
+        state8 = new ProgramState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), new MyDictionary<>(), new MyHeap<>(), example8);
+        RepositoryInterface repository8 = new Repository("log8.txt");
+        repository8.addState(state8);
+        controller8 = new Controller(repository8);
+
         Menu menu = new Menu();
         menu.addCommand(new ExitCommand("0", "exit"));
         menu.addCommand(new RunExampleCommand("1", example1.toString(), controller1));
@@ -332,6 +380,7 @@ public class Main
         menu.addCommand(new RunExampleCommand("5", example5.toString(), controller5));
         menu.addCommand(new RunExampleCommand("6", example6.toString(), controller6));
         menu.addCommand(new RunExampleCommand("7", example7.toString(), controller7));
+        menu.addCommand(new RunExampleCommand("8", example8.toString(), controller8));
 
         menu.show();
     }

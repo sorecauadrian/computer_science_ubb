@@ -1,0 +1,2113 @@
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(reference(int) a;(int counter;while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+reference(int) a
+(int counter;while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1))
+
+ -------- Symbol  Table -------- 
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(int counter;while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+int counter
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 2 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 2 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 3 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 3 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 0
+
+
+Program ID: --------- 3 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (1, int)
+counter -> 0
+
+ -------- Output Console -------- 
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 0
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 0
+
+
+Program ID: --------- 3 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (1, int)
+counter -> 0
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 0
+
+
+Program ID: --------- 4 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+1 -> 0
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 4 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 5 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 5 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+2 -> 1
+
+
+Program ID: --------- 5 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (2, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+2 -> 1
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+2 -> 1
+
+
+Program ID: --------- 5 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (2, int)
+counter -> 1
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+2 -> 1
+
+
+Program ID: --------- 6 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+2 -> 1
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 6 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 7 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 7 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+3 -> 2
+
+
+Program ID: --------- 7 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (3, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+3 -> 2
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+3 -> 2
+
+
+Program ID: --------- 7 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (3, int)
+counter -> 2
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+3 -> 2
+
+
+Program ID: --------- 8 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+3 -> 2
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 8 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 9 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 9 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+4 -> 3
+
+
+Program ID: --------- 9 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (4, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+4 -> 3
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+4 -> 3
+
+
+Program ID: --------- 9 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (4, int)
+counter -> 3
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+4 -> 3
+
+
+Program ID: --------- 10 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+4 -> 3
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 10 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 11 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 11 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+5 -> 4
+
+
+Program ID: --------- 11 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (5, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+5 -> 4
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+5 -> 4
+
+
+Program ID: --------- 11 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (5, int)
+counter -> 4
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+5 -> 4
+
+
+Program ID: --------- 12 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+5 -> 4
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 12 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 13 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 13 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+6 -> 5
+
+
+Program ID: --------- 13 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (6, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+6 -> 5
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+6 -> 5
+
+
+Program ID: --------- 13 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (6, int)
+counter -> 5
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+6 -> 5
+
+
+Program ID: --------- 14 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+6 -> 5
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 14 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 15 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 15 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+7 -> 6
+
+
+Program ID: --------- 15 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (7, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+7 -> 6
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+7 -> 6
+
+
+Program ID: --------- 15 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (7, int)
+counter -> 6
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+7 -> 6
+
+
+Program ID: --------- 16 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+7 -> 6
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 16 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 17 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 17 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+8 -> 7
+
+
+Program ID: --------- 17 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (8, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+8 -> 7
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+8 -> 7
+
+
+Program ID: --------- 17 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (8, int)
+counter -> 7
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+8 -> 7
+
+
+Program ID: --------- 18 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+8 -> 7
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 18 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 19 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+(fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 19 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+fork(fork((new(a, counter);print(readHeap(a)))))
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+9 -> 8
+
+
+Program ID: --------- 19 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (9, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+9 -> 8
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+counter = counter + 1
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+9 -> 8
+
+
+Program ID: --------- 19 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (9, int)
+counter -> 8
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+9 -> 8
+
+
+Program ID: --------- 20 ---------
+ --------Execution Stack-------- 
+fork((new(a, counter);print(readHeap(a))))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+9 -> 8
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+while(counter < 10) (fork(fork((new(a, counter);print(readHeap(a)))));counter = counter + 1)
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 10
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 20 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 21 ---------
+ --------Execution Stack-------- 
+(new(a, counter);print(readHeap(a)))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 1 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 10
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 21 ---------
+ --------Execution Stack-------- 
+new(a, counter)
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (0, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+
+
+Program ID: --------- 21 ---------
+ --------Execution Stack-------- 
+print(readHeap(a))
+
+ -------- Symbol  Table -------- 
+a -> (10, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+10 -> 9
+
+
+Program ID: --------- 21 ---------
+ --------Execution Stack-------- 
+
+ -------- Symbol  Table -------- 
+a -> (10, int)
+counter -> 9
+
+ -------- Output Console -------- 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+ --------  File  Table  -------- 
+
+ --------  Heap  Table  -------- 
+10 -> 9
+
+

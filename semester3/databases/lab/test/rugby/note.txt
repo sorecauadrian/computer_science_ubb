@@ -1,0 +1,5 @@
+1. a, b => -1p
+2. b
+3. b
+
+didn't finish the function because i stored the score as a string. => -0.5p
