@@ -100,6 +100,11 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
                 </a>
             </li>
             <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester3/english">
+                    :uk: english
+                </a>
+            </li>
+            <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester3/functional_and_logic_programming">
                     :briefcase: logical and functional programming
                 </a>
@@ -113,11 +118,13 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
     </li>
 </ul>
 
+---
+
 ### i would like to provide you with my opinion on the difficulties of the exams so that you'll know when to take them in the exam session:
 
 ## semester 1
 
-> for maximum grade:
+##### for maximum grade:
 
 :persevere: computer systems architecture (vancea alexandru)
 
@@ -129,7 +136,7 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
 
 :grin: fundamentals of programming (molnar arthur)
 
-> for passing:
+##### for passing:
 
 :tired_face: computer system architecture (vancea alexandru)
 
@@ -143,7 +150,7 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
 
 ## semester 2
 
-> for maximum grade:
+##### for maximum grade:
 
 :triumph: operating systems (boian rareș)
 
@@ -157,7 +164,7 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
 
 :star_struck: graph algorithms (lupșa radu)
 
-> for passing:
+##### for passing:
 
 :confounded: operating systems (boian rareș)
 
