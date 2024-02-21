@@ -1,0 +1,714 @@
+Program State with id: 1
+ExecutionStack:
+ { (int variable ; (variable=4 ; while(variable>0)(print(variable) ; variable=variable-1) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int variable | (variable=4 ; while(variable>0)(print(variable) ; variable=variable-1) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int variable | (variable=4 ; while(variable>0)(print(variable) ; variable=variable-1) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (variable=4 ; while(variable>0)(print(variable) ; variable=variable-1) )  |  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (variable=4 ; while(variable>0)(print(variable) ; variable=variable-1) )  |  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=4 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=4 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->4; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->3; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->2; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(variable) ; variable=variable-1)  | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(variable) | variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { variable=variable-1 | while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->1; }
+
+Output:
+ { 4 3 2 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ { 4 3 2 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(variable>0)(print(variable) ; variable=variable-1)  |  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ { 4 3 2 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { variable->0; }
+
+Output:
+ { 4 3 2 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+

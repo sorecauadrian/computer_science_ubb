@@ -1,0 +1,1235 @@
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) a ; (new(a, 20) ; (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) a | (new(a, 20) ; (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) a | (new(a, 20) ; (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(a, 20) ; (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(a, 20) ; (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(a, 20) | (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(a, 20) | (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int x ; (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a))) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int x | (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a)))  |  }
+
+SymbolTable:
+ { a->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int x | (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a)))  |  }
+
+SymbolTable:
+ { a->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a)))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} ; print(rh(a)))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { for(0;3;x+1){fork((print(x) ; x=x*rh(a)) )} | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (x=0 ; while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1) )  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (x=0 ; while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1) )  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=0 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=0 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((print(x) ; x=x*rh(a)) ) | x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((print(x) ; x=x*rh(a)) ) | x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ { (print(x) ; x=x*rh(a))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ { (print(x) ; x=x*rh(a))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ { print(x) | x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ { print(x) | x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ { x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ { x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((print(x) ; x=x*rh(a)) ) | x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 2
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->( 1, int ); x->0; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((print(x) ; x=x*rh(a)) ) | x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ { (print(x) ; x=x*rh(a))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ { (print(x) ; x=x*rh(a))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ { print(x) | x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ { print(x) | x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ { x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ { x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->1; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((print(x) ; x=x*rh(a)) ) | x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 3
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->( 1, int ); x->20; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((print(x) ; x=x*rh(a)) ) | x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ { (print(x) ; x=x*rh(a))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { x=x+1 | while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ { (print(x) ; x=x*rh(a))  |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->3; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ { print(x) | x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { while(x<3)(fork((print(x) ; x=x*rh(a)) ) ; x=x+1)  | print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->3; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ { print(x) | x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->3; }
+
+Output:
+ { 0 1 2  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ { x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1 2  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(rh(a)) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->3; }
+
+Output:
+ { 0 1 2  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ { x=x*rh(a) |  }
+
+SymbolTable:
+ { a->( 1, int ); x->2; }
+
+Output:
+ { 0 1 2  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->( 1, int ); x->3; }
+
+Output:
+ { 0 1 2 20  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 4
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->( 1, int ); x->40; }
+
+Output:
+ { 0 1 2 20  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+

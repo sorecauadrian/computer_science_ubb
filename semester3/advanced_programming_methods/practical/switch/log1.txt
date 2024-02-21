@@ -1,0 +1,646 @@
+Program State with id: 1
+ExecutionStack:
+ { (int a ; (int b ; (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int a | (int b ; (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int a | (int b ; (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int b ; (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int b ; (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int b | (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int b | (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int c ; (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int c | (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int c | (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (a=1 ; (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { a=1 | (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { a=1 | (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) )  |  }
+
+SymbolTable:
+ { a->0; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) )  |  }
+
+SymbolTable:
+ { a->1; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (b=2 ; (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) ) )  |  }
+
+SymbolTable:
+ { a->1; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { b=2 | (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) )  |  }
+
+SymbolTable:
+ { a->1; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { b=2 | (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) )  |  }
+
+SymbolTable:
+ { a->1; b->0; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) )  |  }
+
+SymbolTable:
+ { a->1; b->2; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (c=5 ; (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300)) )  |  }
+
+SymbolTable:
+ { a->1; b->2; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { c=5 | (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300))  |  }
+
+SymbolTable:
+ { a->1; b->2; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { c=5 | (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300))  |  }
+
+SymbolTable:
+ { a->1; b->2; c->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300))  |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) ; print(300))  |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { switch(a*10)(case b*c : (print(a) ; print(b)) ) (case 10 : (print(100) ; print(200)) ) (default print(300)) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if a*10==b*c then (print(a) ; print(b))  else  if a*10==10 then (print(100) ; print(200))  else print(300) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if a*10==b*c then (print(a) ; print(b))  else  if a*10==10 then (print(100) ; print(200))  else print(300) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(a) ; print(b))  | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(a) ; print(b))  | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(a) | print(b) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(a) | print(b) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(b) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ { 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(b) | print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ { 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ { 1 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(300) |  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ { 1 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->1; b->2; c->5; }
+
+Output:
+ { 1 2 300  }
+
+File table
+{ }
+
+Heap
+{ }
+
+

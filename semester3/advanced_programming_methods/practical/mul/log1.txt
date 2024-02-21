@@ -1,0 +1,340 @@
+Program State with id: 1
+ExecutionStack:
+ { (int v1 ; (v1=2 ; (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v1 | (v1=2 ; (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v1 | (v1=2 ; (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v1=2 ; (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) ) )  |  }
+
+SymbolTable:
+ { v1->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v1=2 ; (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) ) )  |  }
+
+SymbolTable:
+ { v1->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v1=2 | (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) )  |  }
+
+SymbolTable:
+ { v1->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v1=2 | (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) )  |  }
+
+SymbolTable:
+ { v1->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) )  |  }
+
+SymbolTable:
+ { v1->2; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v2 ; (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1))) )  |  }
+
+SymbolTable:
+ { v1->2; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v2 | (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1)))  |  }
+
+SymbolTable:
+ { v1->2; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v2 | (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1)))  |  }
+
+SymbolTable:
+ { v1->2; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1)))  |  }
+
+SymbolTable:
+ { v1->2; v2->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v2=3 ; (if v1!=0 then print(MUL(v1, v2)) else print(v1)))  |  }
+
+SymbolTable:
+ { v1->2; v2->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v2=3 | (if v1!=0 then print(MUL(v1, v2)) else print(v1)) |  }
+
+SymbolTable:
+ { v1->2; v2->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v2=3 | (if v1!=0 then print(MUL(v1, v2)) else print(v1)) |  }
+
+SymbolTable:
+ { v1->2; v2->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (if v1!=0 then print(MUL(v1, v2)) else print(v1)) |  }
+
+SymbolTable:
+ { v1->2; v2->3; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (if v1!=0 then print(MUL(v1, v2)) else print(v1)) |  }
+
+SymbolTable:
+ { v1->2; v2->3; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(MUL(v1, v2)) |  }
+
+SymbolTable:
+ { v1->2; v2->3; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(MUL(v1, v2)) |  }
+
+SymbolTable:
+ { v1->2; v2->3; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { v1->2; v2->3; }
+
+Output:
+ { 1  }
+
+File table
+{ }
+
+Heap
+{ }
+
+

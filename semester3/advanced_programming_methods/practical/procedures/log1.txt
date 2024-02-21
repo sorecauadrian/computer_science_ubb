@@ -1,0 +1,1332 @@
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (int w ; (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) ) ) )  |  }
+
+SymbolTableStack:
+ { { }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (int w ; (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) ) )  |  }
+
+SymbolTableStack:
+ { { }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (int w ; (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) ) )  |  }
+
+SymbolTableStack:
+ { { }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int w ; (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int w ; (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int w | (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int w | (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=2 ; (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=2 | (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=2 | (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) )  |  }
+
+SymbolTableStack:
+ { { v->0; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) )  |  }
+
+SymbolTableStack:
+ { { v->2; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (w=5 ; (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) ) )  |  }
+
+SymbolTableStack:
+ { { v->2; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { w=5 | (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) )  |  }
+
+SymbolTableStack:
+ { { v->2; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { w=5 | (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) )  |  }
+
+SymbolTableStack:
+ { { v->2; w->0; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) )  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (call sum([v*10, w]) ; (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) )) )  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { call sum([v*10, w]) | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { call sum([v*10, w]) | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (v=a+b ; print(v)) )  | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (v=a+b ; print(v)) )  | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (v=a+b ; print(v))  | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (v=a+b ; print(v))  | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=a+b ; print(v))  | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=a+b ; print(v))  | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=a+b | print(v) | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=a+b | print(v) | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->25; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) | return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->25; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->25; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { return | (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { a->20; b->5; v->25; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(v) ; fork((call product([v, w]) ; fork(call sum([v, w]))) ))  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) | fork((call product([v, w]) ; fork(call sum([v, w]))) ) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) | fork((call product([v, w]) ; fork(call sum([v, w]))) ) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((call product([v, w]) ; fork(call sum([v, w]))) ) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((call product([v, w]) ; fork(call sum([v, w]))) ) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (call product([v, w]) ; fork(call sum([v, w])))  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (call product([v, w]) ; fork(call sum([v, w])))  |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { call product([v, w]) | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { call product([v, w]) | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (int v ; (v=a*b ; print(v)) )  | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (int v ; (v=a*b ; print(v)) )  | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { int v | (v=a*b ; print(v))  | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { int v | (v=a*b ; print(v))  | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (v=a*b ; print(v))  | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (v=a*b ; print(v))  | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { v=a*b | print(v) | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { v=a*b | print(v) | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { print(v) | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->10; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { print(v) | return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->10; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->10; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { return | fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->10; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { fork(call sum([v, w])) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ {  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { call sum([v, w]) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { call sum([v, w]) |  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (int v ; (v=a+b ; print(v)) )  | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (int v ; (v=a+b ; print(v)) )  | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { int v | (v=a+b ; print(v))  | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { int v | (v=a+b ; print(v))  | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (v=a+b ; print(v))  | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (v=a+b ; print(v))  | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { v=a+b | print(v) | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { v=a+b | print(v) | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->0; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { print(v) | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->7; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { print(v) | return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->7; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->7; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10 7  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { return |  }
+
+SymbolTableStack:
+ { { a->2; b->5; v->7; }
+ | { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10 7  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 100
+ExecutionStack:
+ {  }
+
+SymbolTableStack:
+ { { v->2; w->5; }
+ |  }
+
+Output:
+ { 25 2 10 7  }
+
+File table
+{ }
+
+Heap
+{ }
+
+

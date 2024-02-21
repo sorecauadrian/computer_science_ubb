@@ -1,0 +1,833 @@
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (v=10 ; (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (v=10 ; (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (v=10 ; (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=10 ; (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) ) )  |  }
+
+SymbolTable:
+ { v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=10 ; (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) ) )  |  }
+
+SymbolTable:
+ { v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=10 | (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) )  |  }
+
+SymbolTable:
+ { v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=10 | (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) )  |  }
+
+SymbolTable:
+ { v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) )  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((v=v-1 ; (v=v-1 ; print(v)) ) ) ; (sleep(10); ; print(v*10)) )  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((v=v-1 ; (v=v-1 ; print(v)) ) ) | (sleep(10); ; print(v*10))  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((v=v-1 ; (v=v-1 ; print(v)) ) ) | (sleep(10); ; print(v*10))  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (sleep(10); ; print(v*10))  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (v=v-1 ; (v=v-1 ; print(v)) )  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (sleep(10); ; print(v*10))  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (v=v-1 ; (v=v-1 ; print(v)) )  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(10); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { v=v-1 | (v=v-1 ; print(v))  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(10); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { v=v-1 | (v=v-1 ; print(v))  |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(9); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (v=v-1 ; print(v))  |  }
+
+SymbolTable:
+ { v->9; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(9); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (v=v-1 ; print(v))  |  }
+
+SymbolTable:
+ { v->9; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(8); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { v=v-1 | print(v) |  }
+
+SymbolTable:
+ { v->9; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(8); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { v=v-1 | print(v) |  }
+
+SymbolTable:
+ { v->9; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(7); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { print(v) |  }
+
+SymbolTable:
+ { v->8; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(7); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { print(v) |  }
+
+SymbolTable:
+ { v->8; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(6); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 10
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { v->8; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(6); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(5); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(5); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(4); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(4); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(3); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(3); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(2); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(2); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(1); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(1); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(0); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { sleep(0); | print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v*10) |  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { v->10; }
+
+Output:
+ { 8 100  }
+
+File table
+{ }
+
+Heap
+{ }
+
+

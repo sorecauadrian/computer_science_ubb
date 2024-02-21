@@ -1,0 +1,399 @@
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) v ; (new(v, 20) ; (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v | (new(v, 20) ; (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v | (new(v, 20) ; (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v, 20) ; (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) ) )  |  }
+
+SymbolTable:
+ { v->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v, 20) ; (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) ) )  |  }
+
+SymbolTable:
+ { v->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v, 20) | (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) )  |  }
+
+SymbolTable:
+ { v->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v, 20) | (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) )  |  }
+
+SymbolTable:
+ { v->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) )  |  }
+
+SymbolTable:
+ { v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (Ref( Ref( int ) ) a ; (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) ) )  |  }
+
+SymbolTable:
+ { v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( Ref( int ) ) a | (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) )  |  }
+
+SymbolTable:
+ { v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( Ref( int ) ) a | (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) )  |  }
+
+SymbolTable:
+ { v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) )  |  }
+
+SymbolTable:
+ { a->( 0, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(a, v) ; (new(v, 30) ; print(rh(rh(a)))) )  |  }
+
+SymbolTable:
+ { a->( 0, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(a, v) | (new(v, 30) ; print(rh(rh(a))))  |  }
+
+SymbolTable:
+ { a->( 0, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(a, v) | (new(v, 30) ; print(rh(rh(a))))  |  }
+
+SymbolTable:
+ { a->( 0, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v, 30) ; print(rh(rh(a))))  |  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v, 30) ; print(rh(rh(a))))  |  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v, 30) | print(rh(rh(a))) |  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v, 30) | print(rh(rh(a))) |  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(rh(rh(a))) |  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 3, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+3->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(rh(rh(a))) |  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 3, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+3->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->( 2, Ref( int ) ); v->( 3, int ); }
+
+Output:
+ { 20  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->( 1, int )
+3->30
+ }
+
+

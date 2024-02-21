@@ -1,0 +1,916 @@
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) a ; (Ref( int ) b ; (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) a | (Ref( int ) b ; (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) a | (Ref( int ) b ; (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) b ; (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) b ; (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) b | (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) b | (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(a, 0) ; (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(a, 0) | (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(a, 0) | (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 0, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(b, 0) ; (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(b, 0) | (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(b, 0) | (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 0, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(a, 1) ; (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(a, 1) | (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(a, 1) | (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->0
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(b, 2) ; (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(b, 2) | (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(b, 2) | (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->0
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=rh(a)<rh(b)?100:200 ; (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=rh(a)<rh(b)?100:200 | (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=rh(a)<rh(b)?100:200 | (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if rh(a)<rh(b) then v=100 else v=200 | (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if rh(a)<rh(b) then v=100 else v=200 | (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=100 | (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=100 | (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(v) ; (v=rh(b)-2>rh(a)?100:200 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) | (v=rh(b)-2>rh(a)?100:200 ; print(v))  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) | (v=rh(b)-2>rh(a)?100:200 ; print(v))  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=rh(b)-2>rh(a)?100:200 ; print(v))  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (v=rh(b)-2>rh(a)?100:200 ; print(v))  |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=rh(b)-2>rh(a)?100:200 | print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=rh(b)-2>rh(a)?100:200 | print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if rh(b)-2>rh(a) then v=100 else v=200 | print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if rh(b)-2>rh(a) then v=100 else v=200 | print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=200 | print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=200 | print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->100; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->200; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) |  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->200; }
+
+Output:
+ { 100  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->( 1, int ); b->( 2, int ); v->200; }
+
+Output:
+ { 100 200  }
+
+File table
+{ }
+
+Heap
+{1->1
+2->2
+ }
+
+

@@ -1,0 +1,340 @@
+Program State with id: 1
+ExecutionStack:
+ { (bool a ; (int v ; (a=true ; ( if a then v=2 else v=3 ; print(v)) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { bool a | (int v ; (a=true ; ( if a then v=2 else v=3 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { bool a | (int v ; (a=true ; ( if a then v=2 else v=3 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (a=true ; ( if a then v=2 else v=3 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { a->false; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int v ; (a=true ; ( if a then v=2 else v=3 ; print(v)) ) )  |  }
+
+SymbolTable:
+ { a->false; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (a=true ; ( if a then v=2 else v=3 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->false; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int v | (a=true ; ( if a then v=2 else v=3 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->false; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (a=true ; ( if a then v=2 else v=3 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->false; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (a=true ; ( if a then v=2 else v=3 ; print(v)) )  |  }
+
+SymbolTable:
+ { a->false; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { a=true | ( if a then v=2 else v=3 ; print(v))  |  }
+
+SymbolTable:
+ { a->false; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { a=true | ( if a then v=2 else v=3 ; print(v))  |  }
+
+SymbolTable:
+ { a->false; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { ( if a then v=2 else v=3 ; print(v))  |  }
+
+SymbolTable:
+ { a->true; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { ( if a then v=2 else v=3 ; print(v))  |  }
+
+SymbolTable:
+ { a->true; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if a then v=2 else v=3 | print(v) |  }
+
+SymbolTable:
+ { a->true; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  if a then v=2 else v=3 | print(v) |  }
+
+SymbolTable:
+ { a->true; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=2 | print(v) |  }
+
+SymbolTable:
+ { a->true; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { v=2 | print(v) |  }
+
+SymbolTable:
+ { a->true; v->0; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) |  }
+
+SymbolTable:
+ { a->true; v->2; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(v) |  }
+
+SymbolTable:
+ { a->true; v->2; }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { a->true; v->2; }
+
+Output:
+ { 2  }
+
+File table
+{ }
+
+Heap
+{ }
+
+

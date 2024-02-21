@@ -1,0 +1,984 @@
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) v1 ; (Ref( int ) v2 ; (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v1 | (Ref( int ) v2 ; (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v1 | (Ref( int ) v2 ; (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) v2 ; (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) v2 ; (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v2 | (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v2 | (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int x ; (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int x | (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int x | (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int q ; (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int q | (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int q | (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v1, 20) ; (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v1, 20) | (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v1, 20) | (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 0, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v2, 30) ; (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v2, 30) | (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v2, 30) | (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (newLock(x) ; (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { newLock(x) | (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { newLock(x) | (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->0; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  ; (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { ((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { ((lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  ; (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) ) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (lock(x) ; (wH(v1, rh(v1)-1) ; unlock(x)) )  | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { lock(x) | (wH(v1, rh(v1)-1) ; unlock(x))  | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { lock(x) | (wH(v1, rh(v1)-1) ; unlock(x))  | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(v1, rh(v1)-1) ; unlock(x))  | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(v1, rh(v1)-1) ; unlock(x))  | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(v1, rh(v1)-1) | unlock(x) | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(v1, rh(v1)-1) | unlock(x) | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->20
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { unlock(x) | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { unlock(x) | (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (lock(x) ; (wH(v1, rh(v1)*10) ; unlock(x)) )  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { lock(x) | (wH(v1, rh(v1)*10) ; unlock(x))  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { lock(x) | (wH(v1, rh(v1)*10) ; unlock(x))  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(v1, rh(v1)*10) ; unlock(x))  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (wH(v1, rh(v1)*10) ; unlock(x))  | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(v1, rh(v1)*10) | unlock(x) | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { wH(v1, rh(v1)*10) | unlock(x) | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->19
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { unlock(x) | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->190
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { unlock(x) | (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->190
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->190
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (newLock(q) ; (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->190
+2->30
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { newLock(q) | (((lock(q) ; (wH(v2, rh(v2)+5) ; unlock(q)) )  ; (lock(q) ; (wH(v2, rh(v2)*10) ; unlock(q)) ) )  ; ( ; ( ; ( ; (lock(x) ; (print(rh(v1)) ; (unlock(x) ; (lock(q) ; (print(rh(v2)) ; unlock(q)) ) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { q->0; x->1; v1->( 1, int ); v2->( 2, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->190
+2->30
+ }
+
+

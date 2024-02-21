@@ -1,0 +1,1609 @@
+Program State with id: 1
+ExecutionStack:
+ { (Ref( int ) v1 ; (int cnt ; (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v1 | (int cnt ; (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { Ref( int ) v1 | (int cnt ; (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int cnt ; (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (int cnt ; (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int cnt | (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { int cnt | (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (new(v1, 1) ; (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v1, 1) | (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { new(v1, 1) | (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 0, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (createSemaphore(cnt,rh(v1)) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { createSemaphore(cnt,rh(v1)) | (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { createSemaphore(cnt,rh(v1)) | (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) )  |  }
+
+SymbolTable:
+ { cnt->0; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) ; (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) | (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) ) ) | (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) ; (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (acquire(cnt) ; (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) | (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { fork((acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) ) ) | (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (acquire(cnt) ; (print(rh(v1)-1) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (wH(v1, rh(v1)*10) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (acquire(cnt) ; (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { wH(v1, rh(v1)*10) | (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { wH(v1, rh(v1)*10) | (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->1
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { print(rh(v1)) | release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { print(rh(v1)) | release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ {  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ { release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 10
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { acquire(cnt) | (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { (print(rh(v1)-1) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(rh(v1)-1) | release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { print(rh(v1)-1) | release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ { release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { acquire(cnt) | (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 1
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (wH(v1, rh(v1)*10) ; (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) ) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { wH(v1, rh(v1)*10) | (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { wH(v1, rh(v1)*10) | (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->10
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->100
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (wH(v1, rh(v1)*2) ; (print(rh(v1)) ; release(cnt)) )  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->100
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { wH(v1, rh(v1)*2) | (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->100
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { wH(v1, rh(v1)*2) | (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->100
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { (print(rh(v1)) ; release(cnt))  |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { print(rh(v1)) | release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { print(rh(v1)) | release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9 200  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ { release(cnt) |  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9 200  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
+Program State with id: 100
+ExecutionStack:
+ {  }
+
+SymbolTable:
+ { cnt->1; v1->( 1, int ); }
+
+Output:
+ { 10 9 200  }
+
+File table
+{ }
+
+Heap
+{1->200
+ }
+
+
