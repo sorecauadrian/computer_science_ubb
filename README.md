@@ -110,13 +110,43 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
                 </a>
             </li>
             <li>
-                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester3/probability_and_statistics">
-                    :bar_chart: probabilities and statistics
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester3/probability_theory_and_statistics">
+                    :bar_chart: probability theory and statistics
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li>:question: semester4
+        <ul>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/artificial_intelligence">
+                    :question: artificial intelligence
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/database_management_systems">
+                    :question: database management systems
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/software_engineering">
+                    :question: software engineering
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/systems_for_design_and_implementation">
+                    :question: systems for design and implementation
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/web_programming">
+                    :question: web programming
                 </a>
             </li>
         </ul>
     </li>
 </ul>
+
 
 ---
 
@@ -152,28 +182,54 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
 
 ##### for maximum grade:
 
-:triumph: operating systems (boian rareș)
+:triumph: operating systems (boian rareș florin)
 
 :sweat: data structures and algorithms (lupșa dana)
 
 :worried: dynamical systems (buica adriana)
 
-:wink: object oriented programming (bocicor maria iuliana)
+:wink: object oriented programming (bocicor iuliana)
 
-:grinning: geometry (simion iulian) 
+:grinning: geometry (simion iulian-ion) 
 
-:star_struck: graph algorithms (lupșa radu)
+:star_struck: graph algorithms (lupșa radu-lucian)
 
 ##### for passing:
 
-:confounded: operating systems (boian rareș)
+:confounded: operating systems (boian rareș florin)
 
-:worried: object oriented programming (bocicor maria iuliana) 
+:worried: object oriented programming (bocicor iuliana) 
 
 :grimacing: dynamical systems (buica adriana) 
 
 :neutral_face: data structures and algorithms (lupșa dana) 
 
-:slightly_smiling_face: geometry (simion iulian)
+:slightly_smiling_face: geometry (simion iulian-ion)
 
-:star_struck: graph algorithms (lupșa radu)
+:star_struck: graph algorithms (lupșa radu-lucian)
+
+## semester 3
+
+##### for maximum grade:
+
+:blush: databases (surdu sabina)
+
+:relieved: logical and functional programming (pop horia)
+
+:grin: computer networks (darabant sergiu adrian)
+
+:smile: advanced programming methods (crăciun florin)
+
+:heart_eyes: probability theory and statistics (micula sanda)
+
+##### for passing:
+
+:blush: logical and functional programming (pop horia)
+
+:relieved: computer networks (darabant sergiu adrian)
+
+:grin: advanced programming methods (crăciun florin)
+
+:smile: databases (surdu sabina)
+
+:heart_eyes: probability theory and statistics (micula sanda)
