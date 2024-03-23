@@ -1,0 +1,178 @@
+html
+{
+	font-family: sans-serif;
+}
+h1
+{
+	text-decoration: underline;
+}
+h1 span
+{
+	text-decoration: none;
+	padding: 0 2.5px;
+}
+.vertical-menu
+{
+	left: 0%;
+	width: 22.5%;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+}
+.vertical-menu svg
+{
+	display: block;
+}
+.vertical-menu ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.vertical-menu li
+{
+	position: relative;
+	width: 20%;
+}
+.vertical-menu ul ul
+{
+	position: absolute;
+	left: 0%;
+	top: 0;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: transform 0.25s;
+	transform: translateX(0px);
+}
+.vertical-menu ul li:hover > ul
+{
+	left: 0%;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(100px);
+}
+.vertical-menu ul ul ul
+{
+	position: absolute;
+	left: 0%;
+	top: 0;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: transform 0.25s;
+	transform: translateX(0px);
+}
+.vertical-menu ul ul li:hover > ul
+{
+	left: 0%;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(50px);
+}
+.vertical-menu ul ul ul ul
+{
+	position: absolute;
+	left: 0%;
+	top: 0;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: transform 0.25s;
+	transform: translateX(0px);
+}
+.vertical-menu ul ul ul li:hover > ul
+{
+	left: 0%;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(25px);
+}
+#content
+{
+	margin-left: 22.5%;
+	padding: 10px 20px;
+}
+.table-name
+{
+	background: black;
+	color: white;
+	text-align: center;
+}
+#fire
+{
+	text-shadow: 0 -2px 4px #fff,
+				 0 -2px 10px #ff3,
+				 0 -10px 20px #f90,
+				 0 -20px 40px #c33;
+}
+#sahasrara
+{
+	text-shadow: 0 0 10px purple,
+				 0 0 20px purple,
+				 0 0 30px purple;
+}
+#ajna
+{
+	text-shadow: 0 0 10px indigo,
+				 0 0 20px indigo,
+				 0 0 30px indigo;
+}
+#vishuddha
+{
+	text-shadow: 0 0 10px blue,
+				 0 0 20px blue,
+				 0 0 30px blue;
+}
+#anahata
+{
+	text-shadow: 0 0 10px green,
+				 0 0 20px green,
+				 0 0 30px green;
+}
+#manipura
+{
+	text-shadow: 0 0 10px yellow,
+				 0 0 20px yellow,
+				 0 0 30px yellow;
+}
+#svadhisthana
+{
+	text-shadow: 0 0 10px orange,
+				 0 0 20px orange,
+				 0 0 30px orange;
+}
+#muladhara
+{
+	text-shadow: 0 0 10px red,
+				 0 0 20px red,
+				 0 0 30px red;
+}
+#violet-shadow
+{
+	text-shadow: 2px 2px violet;
+}
+#indigo-shadow
+{
+	text-shadow: 2px 2px indigo;
+}
+#blue-shadow
+{
+	text-shadow: 2px 2px blue;
+}
+#green-shadow
+{
+	text-shadow: 2px 2px green;
+}
+#yellow-shadow
+{
+	text-shadow: 2px 2px yellow;
+}
+#orange-shadow
+{
+	text-shadow: 2px 2px orange;
+}
+#red-shadow
+{
+	text-shadow: 2px 2px red;
+}

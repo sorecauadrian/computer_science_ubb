@@ -1,0 +1,30 @@
+PROBLEMS:
+
+1. GREP: Display all the lines from the /etc/passwd file containing the string “dan” (lowercase only).
+2. GREP: Display the number of lines in a file.
+3. GREP: Display the lines from the /etc/passwd file belonging to users with a surname (family name) at
+least 11 characters long.
+4. GREP: Display the lines from the /etc/passwd file that do not begin with the letter e or the letter y.
+5. SED: Replace all occurrences of the string “dan” from the /etc/passwd file with the string “daniel”
+(lowercase only).
+6. SED: Delete all lines containing the string “dan” from the /etc/passwd file.
+7. SED: Convert all the lowercase letters from a file into uppercase letters.
+8. SED: Surround with round brackets any group of 3 or more consecutive vowels from a file.
+9. AWK: Print the line number before each line of the /etc/passwd file.
+10.AWK: Print only the even-numbered lines from the /etc/passwd file.
+11.AWK: Print only the 5th field from each line of the /etc/passwd file, considering that the fields are
+separated by the : character. (use the -F flag for awk: awk -F: …)
+12.AWK: Display information about the students in the system in the following format: Name - Username -
+Group. Extract this information from the /etc/passwd file.
+13.AWK: Display how many lines end in a vowel and how many lines end in a consonant from a file.
+
+SOLVED:
+
+1. grep -E "dan" passwd.fake
+2. grep -Ec "^" passwd.fake
+   grep -Ec ".*" passwd.fake
+   verify with: wc -l passwd.fake
+3. grep -E "^[^:]+:[^:]+:[^:]+:[^:]+:[a-zA-Z]{11,}" passwd.fake
+   grep -E "^([^:]+:){4}[a-zA-Z]{11,}" passwd.fake
+
+
