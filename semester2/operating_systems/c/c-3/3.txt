@@ -1,0 +1,3 @@
+Să se citească un număr N de la tastatură, apoi N texte de maxim 20 de litere. Să se afișeze textele ordonate alfabetic.
+
+sugestii: char**, malloc(), gets()

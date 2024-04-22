@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lab4</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-image: url('./backgrounds/background1.jpg'); background-size: cover; ">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <button id="changeBackgroundBtn" class="btn btn-primary">change background</button>
+        <button id="changeLinkStyleBtn" class="btn btn-secondary">change link style</button>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
+        <button id="link"><a href="#">link 1</a></button>
+        <button id="link"><a href="#">link 2</a></button>
+        <button id="link"><a href="#">link 3</a></button>
+        <button id="link"><a href="#">link 4</a></button>
+        <button id="link"><a href="#">link 5</a></button>
+        <button id="link"><a href="#">link 6</a></button>
+        <button id="link"><a href="#">link 7</a></button>
+        <button id="link"><a href="#">link 8</a></button>
+        <button id="link"><a href="#">link 9</a></button>
+        <button id="link"><a href="#">link 10</a></button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const backgrounds = ['background1.jpg', 'background2.jpg', 'background3.jpg', 'background4.jpg', 'background5.jpg'];
+  let backgroundIndex = 0;
+
+  document.getElementById('changeBackgroundBtn').addEventListener('click', () => 
+  {
+    backgroundIndex = (backgroundIndex + 1) % backgrounds.length;
+    document.body.style.backgroundImage = `url('backgrounds/${backgrounds[backgroundIndex]}')`;
+  });
+
+  document.getElementById('changeLinkStyleBtn').addEventListener('click', () =>
+  {
+    const links = document.querySelectorAll('#link');
+    links.forEach(link => 
+    {
+      link.style.background = getRandomColor();
+      link.style.borderRadius = `${Math.random() * 100}%`;
+    });
+  });
+
+  function getRandomColor() 
+  {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++)
+      color += letters[Math.floor(Math.random() * 16)];
+    return color;
+  }
+</script>
+</body>
+</html>

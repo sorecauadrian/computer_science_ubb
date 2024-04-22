@@ -1,4 +1,0 @@
-Să se citească de la tastatură 10 numere �ntr-un vector static de �ntregi și să se afișeze minimul și media lor
-
-sugestii: gets()+atoi() sau scanf("%d", &var)
-�ncercați să asignați elementul cu indexul 10 din șir (al 11-lea) și să verificați rularea cu valgrind

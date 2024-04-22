@@ -1,0 +1,55 @@
+Folosind awk, calculati suma numerelor de pe fiecare linie in care primul si ultimul camp sunt numere pare. Fisierul va contine doar numere separate de spatii. Afisati numarul liniei si suma.
+
+Using awk, calculate the sum of all the numbers from each line in which the first and last field are even numbers. The file will contain only numbers separated by spaces. Print the line number and the sum.
+
+Ex:
+1 2 3
+6 4 10 11
+4 7 8
+1 2 4
+22
+
+Rezultat/Result:
+3 19
+5 22
+
+Explicatie/Explanation
+-> linia 3 are primul numar 4 si ultimul numar 8 / line 3 has the first number 4 and the last number 8
+-> linia 5 are primul si ultimul numar 22 / line 5 has the first and last number 22
+
+--------------------------------------------------------------------------------
+Folosind grep, afisati liniile din fisierul /etc/passwd care contin cel putin 20 de cifre impare, nu neaparat consecutive.
+
+Using grep, display the lines from the /etc/passwd file that contain at least 20 odd digits, not necessarily consecutive.
+
+--------------------------------------------------------------------------------
+Folosind sed, stergeti toate spatiile din stanga caracterelor virgula de pe fiecare linie.
+
+Using sed, delete all the spaces to the left of the comma characters from each line.
+
+Ex:
+An example    , of input
+ ,data here ,
+and,also
+here
+
+Rezultat/Result:
+
+An example, of input
+,data here,
+and,also
+here
+
+
+
+
+
+my solution:
+
+
+awk '$1 % 2 == 0 && $NF % 2 == 0 {i = NF; sum = 0; while (i) {sum = sum + $i; i = i - 1;} print NR, sum}' numbers.txt
+
+grep -E '([^13579]*[13579][^13579]*){20}' /etc/passwd
+
+sed -E 's/\s*,/,/g' comma.txt
+

@@ -1,0 +1,52 @@
+html, body 
+{
+    width: 100%;
+    height: 100%;
+}
+
+body {margin: 0;}
+
+.desktop 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {margin: auto;}
+
+img 
+{
+    height: 500px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inside 
+{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.inside h1 
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desktop1 {background: #66023CCC;}
+
+#desktop2 {background: #663399CC;}
+
+#desktop3 {background: #A020F0CC;}
+
+#desktop4 {background: #7851A9CC;}

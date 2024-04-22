@@ -1,7 +1,0 @@
-grep -E "^([^i]*i[^i]*){2,4}$" file
-
-sed -E 's/ [^ ]*$//' file
-
-awk '{NF % 2 == 1 {print NR, $(int(NF/2)+1)}' file
-
-sed -E 's/\<[a-z]+\>//1' file
