@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adi\\source\\repos\\lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|c:\\users\\adi\\source\\repos\\lab1\\lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|C:\\Users\\adi\\source\\repos\\lab1\\lab1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A75F65-AC4C-4C92-AF2C-0CAB3EE003A2}|lab1\\lab1.csproj|solutionrelative:lab1\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form2.cs",
+              "RelativeDocumentMoniker": "lab1\\Form2.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form2.cs",
+              "RelativeToolTip": "lab1\\Form2.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T05:18:35.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "lab1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form1.Designer.cs",
+              "RelativeToolTip": "lab1\\Form1.Designer.cs",
+              "ViewState": "AQIAADcCAAAAAAAAAAAowE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T04:57:15.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Program.cs",
+              "RelativeDocumentMoniker": "lab1\\Program.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Program.cs",
+              "RelativeToolTip": "lab1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T04:57:39.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form1.cs",
+              "RelativeDocumentMoniker": "lab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form1.cs",
+              "RelativeToolTip": "lab1\\Form1.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T05:01:32.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form2.cs",
+              "RelativeDocumentMoniker": "lab1\\Form2.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form2.cs [Design]",
+              "RelativeToolTip": "lab1\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T05:18:31.966Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form1.cs",
+              "RelativeDocumentMoniker": "lab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form1.cs [Design]",
+              "RelativeToolTip": "lab1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T05:21:19.661Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "lab1\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Form2.Designer.cs",
+              "RelativeToolTip": "lab1\\Form2.Designer.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T05:18:19.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "lab1\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\lab1\\lab1\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "lab1\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T05:03:43.403Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

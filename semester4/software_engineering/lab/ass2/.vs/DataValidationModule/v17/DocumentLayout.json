@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adi\\source\\repos\\DataValidationModule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3BA1ED-07BC-4013-9528-6BA96676B8F8}|DataValidationModule\\DataValidationModule.csproj|C:\\Users\\adi\\source\\repos\\DataValidationModule\\datavalidationmodule\\datavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3BA1ED-07BC-4013-9528-6BA96676B8F8}|DataValidationModule\\DataValidationModule.csproj|solutionrelative:datavalidationmodule\\datavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B3BA1ED-07BC-4013-9528-6BA96676B8F8}|DataValidationModule\\DataValidationModule.csproj|c:\\users\\adi\\source\\repos\\datavalidationmodule\\datavalidationmodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B3BA1ED-07BC-4013-9528-6BA96676B8F8}|DataValidationModule\\DataValidationModule.csproj|solutionrelative:datavalidationmodule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataValidator.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\DataValidationModule\\DataValidationModule\\DataValidator.cs",
+              "RelativeDocumentMoniker": "DataValidationModule\\DataValidator.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\DataValidationModule\\DataValidationModule\\DataValidator.cs",
+              "RelativeToolTip": "DataValidationModule\\DataValidator.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:51:39.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adi\\source\\repos\\DataValidationModule\\DataValidationModule\\Program.cs",
+              "RelativeDocumentMoniker": "DataValidationModule\\Program.cs",
+              "ToolTip": "C:\\Users\\adi\\source\\repos\\DataValidationModule\\DataValidationModule\\Program.cs",
+              "RelativeToolTip": "DataValidationModule\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T01:49:35.509Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
