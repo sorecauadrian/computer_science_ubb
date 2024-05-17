@@ -116,31 +116,31 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
             </li>
         </ul>
     </li>
-    <li>:question: semester4
+    <li>:expressionless: semester4
         <ul>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/artificial_intelligence">
-                    :question: artificial intelligence
+                    :robot: artificial intelligence
                 </a>
             </li>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/database_management_systems">
-                    :question: database management systems
+                    :cd: database management systems
                 </a>
             </li>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/software_engineering">
-                    :question: software engineering
+                    :skull: software engineering
                 </a>
             </li>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/systems_for_design_and_implementation">
-                    :question: systems for design and implementation
+                    :rock: systems for design and implementation
                 </a>
             </li>
             <li>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester4/web_programming">
-                    :question: web programming
+                    :spider_web: web programming
                 </a>
             </li>
         </ul>
