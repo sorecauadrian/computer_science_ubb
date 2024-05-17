@@ -1,6 +1,5 @@
 <?php
     require_once 'config.php';
-    require_once 'functions.php';
 
     // starting session if not already started
     session_start();
