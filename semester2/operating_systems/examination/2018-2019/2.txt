@@ -1,0 +1,3 @@
+Scrieți o comandă UNIX care inversează toate perechile de cifră impară urmată de vocală (ex: a23e8i97u3 -> a2e38i9u73)
+
+soluție:

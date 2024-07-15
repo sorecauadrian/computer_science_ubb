@@ -1,0 +1,9 @@
+RO: Daţi cinci comenzi GREP care afişează toate liniile dintr-un fişier care conţin litera "a" mare sau mic.
+EN: Give five GREP commands that display all the lines in a file that contain letter "a" uppercase or lowercase.
+
+solution:
+grep -E "[aA]" filename
+grep -iE "[aA]" filename
+grep -i "a" filename
+grep -i "A" filename
+grep "[aA]" filename

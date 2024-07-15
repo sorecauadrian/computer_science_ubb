@@ -1,0 +1,7 @@
+Write a C program that creates N threds(N is a command line)
+Each thread will recive a unique index I from the main process between 0 and N-1 inclusively.Each thred will execute M rounds(M also a command line argument)with the follwoing steps:-generate 2 random numbers(a-between 1 and 20, B-between 1 and 3)and will add A*B  to a shred variable and will print its new value
+-increment the appropriate position in a local frequency vector for the values of A
+
+-increment the appropriate position in a local frequency vector for the values of B
+-wait for all the threads to finish their current round before beginning a new one
+-before terminating, each threads will print its local frequency vectors

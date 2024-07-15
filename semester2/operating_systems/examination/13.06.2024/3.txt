@@ -1,0 +1,6 @@
+RO: Scrieţi două comenzi SED care afişează dintr-un fişier doar liniile care nu conţin cifra 7.
+EN: Write two SED commands that display from a file only the lines that do not contain digit 7.
+
+solution:
+sed -n '/7/!p' filename
+sed '/7/d' filename

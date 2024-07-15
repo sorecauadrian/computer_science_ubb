@@ -214,7 +214,7 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
 
 :blush: databases (surdu sabina)
 
-:relieved: logical and functional programming (pop horia)
+:relieved: logical and funcfortional programming (pop horia)
 
 :grin: computer networks (darabant sergiu adrian)
 
@@ -233,3 +233,36 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
 :smile: databases (surdu sabina)
 
 :heart_eyes: probability theory and statistics (micula sanda)
+
+## semester 4
+
+##### for maximum grade:
+
+:nauseated_face: ​software engineering (zsigmond imre)
+
+:relieved: ​systems for design and implementation (mircea gabriel)
+
+:slightly_smiling_face: ​database management systems (surdu sabina)
+
+:grin: ​web programming (sterca adrian)
+
+:smiley: ​artificial intelligence (mihoc tudor)
+
+##### for passing:
+
+:vomiting_face: software engineering (zsigmond imre)
+
+:relieved: ​database management systems (surdu sabina)
+
+:smiley: ​web programming (sterca adrian)
+
+:kissing_heart: ​systems for design and implementation (mircea gabriel)
+
+:heart_eyes: ​artificial intelligence (mihoc tudor)
+
+
+
+
+
+
+

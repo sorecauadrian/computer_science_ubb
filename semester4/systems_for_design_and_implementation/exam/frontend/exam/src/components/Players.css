@@ -1,0 +1,14 @@
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.custom-col {
+    flex: 0 0 10%;
+}
+
+.custom-col .card {
+    height: 100%;
+    text-align: center;
+}

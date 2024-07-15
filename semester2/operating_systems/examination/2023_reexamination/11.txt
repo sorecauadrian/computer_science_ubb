@@ -1,3 +1,5 @@
 When would you use execv instead of execl?
 
 solution:
+when the number of arguments is variable or unknown
+execv allows you to construct an array of arguments dynamically and pass them to the new program. this is more flexible than execl, where you need to specify each argument explicitly as separate function parameters.

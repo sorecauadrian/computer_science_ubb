@@ -1,4 +1,4 @@
 What is a "critical section"?
 
 solution:
-
+a critical section is a part of a concurrent program where shared resoureces are accessed or modified by multiple threads or processes. it is crucial to ensure that only one thread (or process) can execute the critical section at any given time to maintain data integrity and consistency.

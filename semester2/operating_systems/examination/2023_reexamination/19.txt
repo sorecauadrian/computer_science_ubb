@@ -1,3 +1,9 @@
 Give three GREP commands that display the lines of a file which consist exclusively of a non-empty sequence of alternating leters and digits (ex: a0g or 1r5m)
 
 solution:
+grep -E '^[a-z][0-9]([a-z][0-9])*$|^[0-9][a-z]([0-9][a-z])*$' filename
+grep --extended-regexp '^[a-z][0-9]([a-z][0-9])*$|^[0-9][a-z]([0-9][a-z])*$' filename
+grep -E '^([a-z][0-9])+$|^([0-9][a-z])+$' filename
+grep --extended-regexp '^([a-z][0-9])+$|^([0-9][a-z])+$' filename
+grep -E '^([a-z][0-9]){1,}$|^([0-9][a-z]){1,}$' filename
+grep --extended-regexp '^([a-z][0-9]){1,}$|^([0-9][a-z]){1,}$' filename

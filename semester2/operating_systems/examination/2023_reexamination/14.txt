@@ -5,4 +5,5 @@ execlp("echo", "echo", "3", NULL);
 printf("4\n");
 
 solution:
-
+2 if there's an executable called expr that's similar to bin/expr in the same folder
+3 if not

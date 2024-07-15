@@ -1,0 +1,40 @@
+RO: Adăugaţi liniile de cod C necesare pentru ca instrucţiunea de mai jos să suprascrie conţinutul unui fişier b.txt. Nu modificaţi instrucţiunea.
+EN: Add the necessary lines of C code so that the instruction below overwrites the content of a file b.txt. Do not change the instruction.
+
+    execlp("cat", "cat", "a.txt", NULL);
+
+solution:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main() {
+    // Open the file b.txt for writing, creating it if it doesn't exist,
+    // and truncating it if it does.
+    int fd = open("b.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+    if (fd < 0) {
+        perror("open");
+        exit(EXIT_FAILURE);
+    }
+
+    // Redirect stdout to the file descriptor for b.txt
+    if (dup2(fd, STDOUT_FILENO) < 0) {
+        perror("dup2");
+        close(fd);
+        exit(EXIT_FAILURE);
+    }
+
+    // Close the file descriptor as it is no longer needed
+    close(fd);
+
+    // Execute the cat command to copy the content of a.txt to stdout,
+    // which is now redirected to b.txt
+    execlp("cat", "cat", "a.txt", NULL);
+
+    // If execlp fails, print an error message and exit
+    perror("execlp");
+    exit(EXIT_FAILURE);
+}
+

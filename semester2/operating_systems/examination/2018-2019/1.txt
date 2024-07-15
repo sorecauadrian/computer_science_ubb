@@ -1,0 +1,4 @@
+Scrieți o comandă UNIX care afișează toate liniile din fișierul a.txt care conțin cel puțin un număr binar multiplu de 4 cu cinci sau mai multe cifre (ex: 010100).
+
+soluție:
+

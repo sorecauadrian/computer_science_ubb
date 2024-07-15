@@ -1,0 +1,16 @@
+Create a C program that receives 2 command line arguments N and M, integers.
+The program creates N * M threads simultaneously.
+In each group of M consecutive threads, the threads wait for one another to start and then, 
+each thread from group number K (for all K between 0 and N-1) generates one integer 
+between 1 and 10 and adds it to the K-th position of a shared array.
+After all threads terminate, the main process prints the index with the 
+maximum value and the maximum value from the shared array.
+
+Scrieti un program C care primeste 2 parametri la linia de comanda, numere intregi N si M.
+Programul creeaza N * M threaduri simultan.
+In fiecare grup de M threaduri consecutive, threadurile asteapta unul dupa altul sa porneasca si apoi,
+fiecare thread din grupul cu numarul K (pentru orice K intre 0 si N-1) genereaza un intreg
+intre 1 si 10 si il adauga la pozitia K dintr-un sir partajat.
+Dupa ce toate threadurile isi incheie execuitia, procesul principal 
+afiseaza maximul si pozitia sa din sirul partajat.
+

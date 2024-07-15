@@ -1,0 +1,5 @@
+RO: Câte FIFO-uri poate deschide un process dacă nu sunt şi nici nu vor fi folosite vreodată de vreun alt proces?
+EN: How many FIFOs can a process open if they are not and will not ever be used by any other process?
+
+solution:
+1024 - 3 (stdin, stdout, stderr) = 1021 (not sure)

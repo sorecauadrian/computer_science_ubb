@@ -1,4 +1,5 @@
 Write an AWK command that displays the sum of all the numbers in a text file whose lines consist of sequences of digits separated by spaces.
 
 solution:
+awk '{ for (i=1; i<=NF; i++) sum += $i } END { print sum }' filename
 

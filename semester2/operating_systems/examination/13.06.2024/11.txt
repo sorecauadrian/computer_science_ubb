@@ -1,0 +1,7 @@
+RO: Când aţi folosi un process în locul unui thread?
+EN: When would you prefer using a process instead of a thread?
+
+solution:
+security: when you need higher security and control over what different parts of your application can do.
+memory isolation: when you need strong isolation between tasks.
+scalability: when you need to scale out across multiple CPU cores or even multiple machines.

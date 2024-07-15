@@ -1,0 +1,9 @@
+RO: Daţi trei expresii regulare care acceptă orice număr ne-negativ multiplu de 5.
+EN: Give three regular expressions that match any non-negative number multiple of 5.
+
+solution:
+^[0-9]*[50]$
+^[0-9]*[05]$
+^[0-9]{0,}[05]$
+^[0-9]{0,}[50]$
+

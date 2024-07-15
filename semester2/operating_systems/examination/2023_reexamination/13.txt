@@ -1,4 +1,6 @@
 Explain why the file descriptor returned by popen must be closed with pclose instead of fclose.
 
 solution:
+resource leaks: using fclose on a FILE* returned by popen will close the file stream, but will not wait for the child process to terminate. this can lead to resource leaks because the child process may continue to run, and its termination status is not collected.
 
+zombie process: the child process may become a "zombie" process (a process that has terminated, but whose exit status has not been collected) if fclose is used instead of pclose. zombie processes consume system resources and can cause the process table to fill up, leading to system instability.

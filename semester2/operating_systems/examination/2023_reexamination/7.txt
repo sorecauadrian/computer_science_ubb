@@ -1,4 +1,8 @@
 What can you do as a software developer to prevent deadlocks?
 
 solution:
-eliminate circular wait: choose an order for your resources and always lock them in the same order.
+lock ordering: ensure that all threads acquire locks in a consistent global order. for example, if there are two mutexes, always aquire m[0] before m[1]. this prevents circular wait conditions.
+
+avoid nested locks: minimize or avoid nested locking where possible. if a thread needs multiple resources, redesign the program to acquire them sequentially without holding multiple locks simultaneously.
+
+

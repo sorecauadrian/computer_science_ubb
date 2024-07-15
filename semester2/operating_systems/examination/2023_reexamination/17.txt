@@ -1,4 +1,6 @@
 Write two SED commands that display a file's lines deleting the first non-empty sequence of lower-case letters.
 
 solution:
-
+sed -E 's/[a-z]+//1' filename
+sed --regexp-extended 's/[a-z]+//1' filename
+sed -r 's/[a-z]{1,}//1' filename

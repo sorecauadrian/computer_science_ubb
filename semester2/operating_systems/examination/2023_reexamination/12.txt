@@ -1,4 +1,4 @@
 How many FIFOs can a process open for reading if the FIFOs are and will ever be used by other processes only for writing?
 
 solution:
-
+using ulimit -n and ulimit -Hn, the soft limit is 1024 and the hard limit is 1048576. 

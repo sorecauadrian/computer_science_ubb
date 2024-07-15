@@ -1,0 +1,5 @@
+RO: Scrieţi o comandă AWK care afişează suma penultimului câmp al tuturor liniilor.
+EN: Write an AWK command that displays the sum of the next to last field of all lines.
+
+solution:
+awk '{ sum += $(NF-1) } END {print sum}' filename

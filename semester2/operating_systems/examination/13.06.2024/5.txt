@@ -1,0 +1,6 @@
+RO: Cum puteţi redirecta în linia de comanda ieşirea de eroare prin pipe înspre un alt program?
+EN: How can you redirect on the command line the standard error through pipe to another program?
+
+solution:
+my_program 2>&1 | grep "error"
+

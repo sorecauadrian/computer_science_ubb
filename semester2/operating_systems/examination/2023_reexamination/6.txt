@@ -15,3 +15,10 @@ void* f(void* p)
 }
 
 solution:
+deadlock.
+let's say we got 2 threads: the first has id = 0 and the second one id = 1
+thread 0 locks m[0]
+thread 1 locks m[1]
+thread 0 tries to lock m[1], but is already locked by thread 1.
+thread 1 tries to lock m[0], but is already locked by thread 0.
+both threads will wait for each other to release the mutexes they have locked, leading to a deadlock.

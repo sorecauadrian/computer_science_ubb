@@ -1,0 +1,8 @@
+RO: Scrieţi un script Shell UNIX care afişează toate argumentele din linia de comandă fără a folosi FOR.
+EN: Write a UNIX Shell script that displays all command line arguments without using FOR
+
+solution:
+#!/bin/sh
+
+echo "$@"
+

@@ -1,4 +1,6 @@
 Give three function calls that ensure mutual exclusion.
 
 solution:
+pthread_mutex_lock and pthread_mutex_unlock
+sem_wait and sem_post
 

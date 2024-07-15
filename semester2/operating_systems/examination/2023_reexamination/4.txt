@@ -1,4 +1,9 @@
 What state transition will a process undergo when it calls sem_wait and under what conditions? Justify your answer.
 
 solution:
+if the semaphore value is greater than 0, the process continues running
+if the semaphore is 0 or less, the process transitions to the blocked state and waits until the semaphore becomes available
 
+explanation:
+if the semaphore value is greater than 0, the process decrements the semaphore value and remains in the running state because it has successfully acquired the resource
+if the semaphore value is 0 or less, the process cannot decrement the semaphore value, it transitions to the blocked state and is added to the semaphore's waiting queue

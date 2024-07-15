@@ -1,0 +1,5 @@
+RO: De ce nu e recomandat sa comunicaţi bidirecţional printr-un singur FIFO?
+EN: Why is it not advisable to communicate bidirectionally through a single FIFO?
+
+solution:
+deadlocks: if both processes are trying to read from the FIFO at the same time, they could end up waiting indefinitely for data that isn't coming because both processes are also waiting to write.
