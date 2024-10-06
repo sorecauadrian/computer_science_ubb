@@ -145,6 +145,40 @@ work done for bbu cluj-napoca, faculty of mathematics and informatics, informati
             </li>
         </ul>
     </li>
+    <li>:grin: semester5
+        <ul>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/designing_innovative_products">
+                    :briefcase: designing innovative products
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/formal_languages_and_compiler_design">
+                    :pencil2: formal languages and compiler design
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/mobile_application_programming">
+                    :iphone: mobile application programming
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/parallel_and_distributed_programming">
+                    :chains: parallel and distributed programming
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/robotic_process_automation">
+                    :robot: robotic process automation
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/software_security">
+                    :unlock: software security
+                </a>
+            </li>
+        </ul>
+    </li>
 </ul>
 
 
