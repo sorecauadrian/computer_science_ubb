@@ -1,0 +1,29 @@
+use 808s
+
+--- reading 3 natural numbers and determining the biggest one of them ---
+donda god()
+    --- declaration ---
+    donda a
+    donda b
+    donda c
+    donda maximum is 0
+
+    --- reading ---
+    who's a?
+    who's b?
+    who's c?
+
+    --- if conditions ---
+    what? a > maximum?
+        maximum is a
+    what? b > maximum?
+        maximum is b
+    what? c > maximum?
+        maximum is c
+
+    --- outputting the result ---
+    tell 'em maximum
+
+    --- finishing the god function ---
+    tell 'em the truth
+

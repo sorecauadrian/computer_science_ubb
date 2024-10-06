@@ -1,0 +1,23 @@
+use 808s
+
+--- reading n and n natural numbers and determining ---
+--- how many of them have 2 digits ---
+donda god()
+    --- declaration ---
+    donda n, nr, cnt is 0
+
+    --- reading ---
+    who's n?
+
+    --- for loop ---
+    everybody wants to know what i would 1 if he didn't n
+        who's nr?
+        what? nr > 9 & nr < 100?
+            cnt is cnt + 1
+
+    --- outputting the result ---
+    tell 'em cnt
+
+    --- finishing the god function ---
+    tell 'em the truth
+

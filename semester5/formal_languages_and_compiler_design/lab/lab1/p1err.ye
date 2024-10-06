@@ -1,0 +1,27 @@
+use 808s
+
+--- reading 3 natural numbers and determining the smallest one of them ---
+donda god()
+    --- declaration ---
+    dondo a $first lexical error$
+    donda b
+    donda c
+
+    --- reading ---
+    who's a?
+    who's b?
+    whos c? $second lexical error$
+
+    donda minimum is a
+
+    --- if conditions ---
+    what? b < minimum
+        maximum is b
+    what c < minimum? $third lexical error$
+        maximum is c
+
+    --- outputting the result ---
+    tell them minimum $forth lexical error$
+
+    --- finishing the god function ---
+    tell 'em the truth

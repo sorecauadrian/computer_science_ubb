@@ -1,0 +1,20 @@
+use 808s
+
+--- reading n and n natural numbers and calculating their product ---
+donda god()
+    --- declaration ---
+    donda n, nr, i is 0, p is 1
+
+    --- reading ---
+    who's n?
+
+    --- for loop ---
+    everybody wants to know what i would 1 if he didn't n
+        who's nr?
+        p is p * nr
+
+    --- outputting the result ---
+    tell 'em p
+
+    --- finishing the god function ---
+    tell 'em the truth
