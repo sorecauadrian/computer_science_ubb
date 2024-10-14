@@ -40,7 +40,7 @@ The application should persist the content locally, to be able to allow offline 
 You can check the initially proposed design of the app [here](https://www.figma.com/design/8emTbltWzUSrTSlG3PhXBp/MA_lab1?node-id=0-1&t=4QC3GNErM0uDcebT-1).
 
 #### Main Page
-![image](https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/mobile_application_programming/lab/lab1/app_design/main.png)
+![image](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester5/mobile_application_programming/lab/lab1/app_design/main.png)
 
 #### Edit Page
-![image](https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester5/mobile_application_programming/lab/lab1/app_design/edit.png)
+![image](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester5/mobile_application_programming/lab/lab1/app_design/edit.png)
