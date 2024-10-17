@@ -1,0 +1,14 @@
+no întreg a
+no întreg b
+no întreg c
+no întreg maximum capătă 0
+
+no citește(a)
+no citește(b)
+no citește(c)
+
+no în cazu-n care(a îi mai mare decât maximum) {maximum capătă a}
+no în cazu-n care(b îi mai mare decât maximum) {maximum capătă b}
+no în cazu-n care(c îi mai mare decât maximum) {maximum capătă c}
+
+no zâi(maximum)

@@ -1,0 +1,3 @@
+I'm using modular hashing for the Hash Table (h(key) = key % size).
+The contains(key) function returns true if the key is in the symbol table.
+The add(key) function adds the key to the hash table if it is not contained already.

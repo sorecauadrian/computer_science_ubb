@@ -1,0 +1,11 @@
+no întreg n, nr, cnt capătă 0
+
+no citește(n)
+
+no câtă vreme(i capătă 1, i îi mai mic decât n, i capătă i cu 1)
+{
+	no citește(nr)
+	no în cazu-n care(nr îi mai mare decât 9 șî nr îi mai mic decât 100) {cnt capătă cnt cu 1}
+}
+
+no zâi(cnt)

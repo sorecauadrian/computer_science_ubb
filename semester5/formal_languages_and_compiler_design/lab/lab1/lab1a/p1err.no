@@ -1,0 +1,14 @@
+întreg a // first lexical error
+no întreg b
+no întreg c
+
+no citește(a)
+no citește b // second lexical error
+no citește(c)
+
+no întreg minimum capătă a
+
+no în cazu-n care(b îi mai mic decât minimum) (minimum capătă b) // third lexical error
+no în cazu-n care(c îi mai mic decât minimum) {minimum capătă c} 
+
+no zâi(minimum)

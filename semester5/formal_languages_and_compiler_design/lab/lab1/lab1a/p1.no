@@ -1,0 +1,8 @@
+no întreg n, nr, i capătă 0, p capătă 1
+no citește(n)
+no dăi (i capătă 1, i îi oțâră mai mic decât n, i capătă i cu 1) 
+{
+	no citește(nr)
+	no p capătă p înmulțât cu nr
+}
+no zâi(p)

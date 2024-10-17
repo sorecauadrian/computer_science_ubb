@@ -1,0 +1,43 @@
+<type> ::= întreg | literă | zâcală
+
+<letter> ::= a | … | z | A | … | Z
+
+<digit> ::= 0 | … | 9
+
+<symbol> ::= _
+
+<identifier> ::= <identifier> <letter> | <identifier> <digit> | <identifier> <symbol>
+
+<factor> ::= (<expression>) | <identifier> | <constant>
+
+<term operator> ::= înmulțât cu | împărțât la | rest
+
+<term> ::= <term> <term operator> <factor> | <factor>
+
+<expression operator> ::= cu | fără 
+
+<expression> ::= <expression> <expression operator> <term> | <term> | <ternary expression>
+
+<condition> ::= <expression> <relational operator> <expression>
+
+<ternary expression> ::= <condition> ? <expression> : <expression>
+
+<declaration statement> ::= no <type> <identifier> | no <type> <identifier> = <expression>
+
+<assignment statement> ::= no <identifier> = <expression>
+
+<io statement> ::= no citește(<identifier>) | no zâi(<identifier>)
+
+<if statement> ::= no în cazu-n care(<condition>) fă {<statement-list>} | no în cazu-n care (<condition>) fă {<statement list>} dacă nu {<statement-list>}
+
+<while statement> ::= no câtă vreme (<condition>) fă {<statement-list>}
+
+<relational operator> ::= capătă | îi mai mic decât | îi oțâră mai mic decât | îi | îi oțâră mai mare decât | îi mai mare decât 
+
+<for statement> ::= no dăi (<statement>, <condition>, <statement>) {<statement-list>}
+
+<statement> ::= <declaration statement> | <assignment statement> | <io statement> | <if statement> | <while statement> | <for statement>
+
+<statement-list> ::= <statement> | <statement-list> <statement>
+
+<program> ::= null | <statement-list>

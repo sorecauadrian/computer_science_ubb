@@ -1,0 +1,33 @@
+Alphabet:
+	- upper and lower case letters of the English alphabet (a-zA-Z)
+	- underline character '_'
+	- decimal digits (0-9)
+
+Lexic:
+	Special tokens, representing:
+		- arithmetic operators: cu(+) fără(-) înmulțât cu(*) împărțât la(/) rest(%)
+		- relational operators: capătă(=) îi mai mic decât(<) îi oțâră mai mic decât(<=) îi(==) îi oțâră mai mare decât(=>) îi mai mare decât(>) ? șî(&&) ori(||)
+		- separators: () { } : space
+		- reserved words:
+			întreg(int) literă(char) zâcală(string) dăi(for) în cazu-n care(if) dacă nu(else) câtă vreme(while) fă(do) citește(read) zâi(write)
+
+ 	Identifiers:
+		- a sequence of letters and digits, such that the first character is a letter; the rule is:
+			identifier ::= letter{letter|digit}
+			letter ::= "A" | "B" | ... | "Z" | "a" | "b" | ... | "z"
+			digit ::= "0" | "1" | ... | "9"
+
+ 	Constants:
+		- întreg:
+ 			<non-zero digit> ::= 1 | ... | 9
+ 			<digit> ::= 0 | ... | 9
+ 			<sign> ::= + | 
+ 			<unsigned integer> ::= <non-zero digit> | <unsigned integer> <digit>
+ 			<signed integer> ::= 0 | <unsigned integer> | <sign> <unsigned integer>
+		- literă:
+ 			<character literal> := digit | letter
+ 			<character const> := "'" {character literal} "'"
+		- zâcală:
+ 			<character> = <letter> | _ | <digit> | <operator> | <separator>
+ 			<characters> = <character> | <characters> <character> 
+ 			<string> := \" {character literal} \"

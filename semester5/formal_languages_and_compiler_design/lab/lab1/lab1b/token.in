@@ -1,0 +1,37 @@
+[reserved_words]
+întreg(int) 
+literă(char) 
+zâcală(string) 
+dăi(for) 
+în cazu-n care(if) 
+dacă nu(else) 
+câtă vreme(while) 
+fă(do) 
+citește(read) 
+zâi(write)
+no
+
+[operators]
+cu(+) 
+fără(-) 
+înmulțât cu(*) 
+împărțât la(/) 
+rest(%)
+capătă(=) 
+îi mai mic decât(<) 
+îi oțâră mai mic decât(<=) 
+îi(==) 
+îi oțâră mai mare decât(=>) 
+îi mai mare decât(>) 
+?
+șî(&&) 
+ori(||)
+
+[separators]
+(
+)
+{
+}
+,
+"
+'
