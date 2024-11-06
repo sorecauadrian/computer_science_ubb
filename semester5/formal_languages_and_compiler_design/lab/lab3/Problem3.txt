@@ -1,0 +1,20 @@
+begin
+number subjectNumber;
+cread(number);
+number ok;
+ok=1;
+if (subjectNumber<2 or subjectNumber>2 and subjectNumber%2==0){
+ok = 0;
+}
+foreach(d=3;d*d<=n;d=d+2){
+if (subjectNumber%d==0){
+ok=0;
+}
+}
+if(ok==1){
+cwrite('prime');
+}
+else {
+cwrite('not_prime');
+}
+end

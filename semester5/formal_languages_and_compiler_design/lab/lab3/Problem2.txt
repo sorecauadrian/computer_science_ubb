@@ -1,0 +1,14 @@
+begin
+number list[10] array;
+number length;
+number sum;
+cread(length);
+sum = 0;
+foreach (i = 0, i < size; i = i + 1){
+cread(array[i]);
+if (array[i] > 0){
+sum = sum + array[i];
+}
+}
+cwrite(sum);
+end

@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "userChoice&Sequence_1",
+        "computerChoice&Sequence_1",
+        "winner&Sequence_1",
+        "choices&Sequence_1",
+        "numberOfGames&Sequence_1",
+        "ok&Sequence_1",
+        "roundHistory&Sequence_1",
+        "userWins&Sequence_1",
+        "computerWins&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

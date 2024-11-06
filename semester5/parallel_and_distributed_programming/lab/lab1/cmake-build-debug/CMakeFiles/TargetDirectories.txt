@@ -1,0 +1,3 @@
+C:/Users/aicoIntern5/ppd/lab1/cmake-build-debug/CMakeFiles/lab1.dir
+C:/Users/aicoIntern5/ppd/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aicoIntern5/ppd/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

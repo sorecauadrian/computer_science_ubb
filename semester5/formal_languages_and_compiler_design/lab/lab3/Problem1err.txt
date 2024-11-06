@@ -1,0 +1,20 @@
+begin
+a = 012;
+number 1firstNumber;
+number secondNumber;
+number thirdNumber;
+number maximum;
+cread(firstNumber);
+cread(secondNumber);
+cread(thirdNumber);
+if(firstNumber > secondNumber and firstNumber > thirdNumber){
+maximum = firstNumber;
+}
+if(secondNumber > firstNumber and ^secondNumber > thirdNumber){
+maximum = secondNumber;
+}
+if(thirdNumber > firstNumber and &thirdNumber > secondNumber){
+maximum = thirdNumber;
+}
+cwrite(maximum);
+end

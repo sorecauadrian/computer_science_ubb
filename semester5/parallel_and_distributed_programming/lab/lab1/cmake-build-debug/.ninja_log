@@ -1,0 +1,14 @@
+# ninja log v6
+10	1828	7512026722349190	CMakeFiles/lab1.dir/main.cpp.obj	274a90480d0b4a3
+2	379	7517616547694107	build.ninja	cabbd608b6c09af4
+1828	1963	7512026740528824	lab1.exe	fa99308f803886e4
+20	1633	7512026722461545	CMakeFiles/lab1.dir/SalesThread/SalesThread.cpp.obj	b92ba43c4cce164a
+16	670	7512026722420605	CMakeFiles/lab1.dir/Product/Product.cpp.obj	b11a283cdae8e910
+40	899	7511652076799766	CMakeFiles/lab1.dir/CheckEverythingThread/CheckEverythingThread.cpp.obj	1e23692db99c8b08
+11	511	7511922430114382	CMakeFiles/lab1.dir/Bill/Bill.cpp.obj	cefe96bbc9c8063
+10	726	7511650764695633	CMakeFiles/lab1.dir/ExtendedProduct/ExtendedProduct.cpp.obj	5cc4515e994c5d4a
+45	1085	7511652076850442	CMakeFiles/lab1.dir/ProcessBillsThread/ProcessBillsThread.cpp.obj	f5d780254f1c5690
+16	843	7511922430162140	CMakeFiles/lab1.dir/Supermarket/Supermarket.cpp.obj	602b39fbb7cef074
+25	1117	7512026722502355	CMakeFiles/lab1.dir/Inventory/Inventory.cpp.obj	63260adac0dbce1e
+15	1426	7517617088373013	CMakeFiles/lab1.dir/SalesThread/SalesThread.cpp.obj	b92ba43c4cce164a
+1426	1757	7517617102484844	lab1.exe	fa99308f803886e4
