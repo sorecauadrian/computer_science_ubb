@@ -1,0 +1,14 @@
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\obj\Debug\FutureAndContinuation.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\obj\Debug\FutureAndContinuation.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\bin\Debug\FutureAndContinuation.exe.config
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\bin\Debug\FutureAndContinuation.exe
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\bin\Debug\FutureAndContinuation.pdb
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\obj\Debug\FutureAndContinuation.exe
+C:\Users\Rafael\Desktop\UBB-Work\SemesterV\Progrm paralela\lab5\FutureAndContinuation\obj\Debug\FutureAndContinuation.pdb
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\bin\Debug\FutureAndContinuation.exe.config
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\bin\Debug\FutureAndContinuation.exe
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\bin\Debug\FutureAndContinuation.pdb
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\obj\Debug\FutureAndContinuation.csproj.AssemblyReference.cache
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\obj\Debug\FutureAndContinuation.csproj.CoreCompileInputs.cache
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\obj\Debug\FutureAndContinuation.exe
+C:\Users\aicoIntern5\Downloads\FutureAndContinuation\FutureAndContinuation\obj\Debug\FutureAndContinuation.pdb
