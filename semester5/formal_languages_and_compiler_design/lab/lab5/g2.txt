@@ -1,0 +1,26 @@
+N = { program, declaration, type, term, factor, const, compound_statement, statement_list, statement, simple_statement, struct_statement, if_statement, for_statement, while_statement, assign_statement, expression, io_statement, condition, relation, term_prime, expression_prime }
+E = { start, integer, character, string, [, ], {, }, ;, +, -, *, /, =, (, ), <, <=, ==, !=, >=, >, while, for, if, else, read, write, identifier, number }
+S = program
+P = {
+    program -> start compound_statement
+    declaration -> type identifier
+    type -> string | integer | character
+    compound_statement -> { statement_list }
+    statement_list -> statement | statement ; statement_list
+    statement -> simple_statement ; | struct_statement
+    simple_statement -> assign_statement | io_statement | declaration
+    struct_statement -> compound_statement | if_statement | while_statement | for_statement
+    if_statement -> if condition statement else statement
+    for_statement -> for ( assign_statement ; condition ; assign_statement ) statement
+    while_statement -> while ( condition ) statement
+    assign_statement -> identifier = expression
+    expression -> term expression_prime | identifier
+    expression_prime -> + term expression_prime | - term expression_prime
+    term -> factor term_prime
+    term_prime -> * factor term_prime | / factor term_prime
+    factor -> identifier | number | ( expression )
+    io_statement -> read identifier | write identifier
+    condition -> identifier relation const
+    const -> number | identifier
+    relation -> < | <= | == | != | >= | >
+}

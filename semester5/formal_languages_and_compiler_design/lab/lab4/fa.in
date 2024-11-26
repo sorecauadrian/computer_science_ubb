@@ -1,0 +1,11 @@
+Q = A B C D E F
+E = a b c
+q0 = A
+F = D F
+S =
+	(A,a) -> B
+	(A,a) -> E
+	(B,b) -> C
+	(C,c) -> D
+	(E,b) -> F
+	(F,c) -> E
