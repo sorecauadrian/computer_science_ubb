@@ -1,0 +1,36 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S \\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester5\parallel_and_distributed_programming\lab\lab5 -B \\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester5\parallel_and_distributed_programming\lab\lab5\cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '//wsl.localhost/Ubuntu/home/sorecauadrian/computer_science_ubb/semester5/parallel_and_distributed_programming/lab/lab5/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-faj7ov'
+    
+    Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_5f795
+    [1/2] C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_5f795.dir\testCCompiler.c.obj -c \\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester5\parallel_and_distributed_programming\lab\lab5\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-faj7ov\testCCompiler.c
+    FAILED: CMakeFiles/cmTC_5f795.dir/testCCompiler.c.obj 
+    C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_5f795.dir\testCCompiler.c.obj -c \\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester5\parallel_and_distributed_programming\lab\lab5\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-faj7ov\testCCompiler.c
+    Assembler messages:
+    Fatal error: can't create CMakeFiles\cmTC_5f795.dir\testCCompiler.c.obj: Invalid argument
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!

@@ -218,5 +218,5 @@ class ParserRecursiveDescendent:
                 self.write_in_out(msg)
 
 
-parcer_trial2 = ParserRecursiveDescendent("g2.txt", "PIF.out", "out2.txt")
-# parcer_trial1 = ParserRecursiveDescendent("g1.txt", "seq.txt", "out1.txt")
+# parcer_trial2 = ParserRecursiveDescendent("g2.txt", "PIF.out", "out2.txt")
+parcer_trial1 = ParserRecursiveDescendent("g1.txt", "seq.txt", "out1.txt")

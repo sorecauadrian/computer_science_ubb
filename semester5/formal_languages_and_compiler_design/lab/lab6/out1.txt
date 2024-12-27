@@ -1,0 +1,97 @@
+q 0
+[]
+['S']
+---expand---
+q 0
+[('S', 0)]
+['a', 'S', 'b', 'S']
+---advance---
+q 1
+[('S', 0), 'a']
+['S', 'b', 'S']
+---expand---
+q 1
+[('S', 0), 'a', ('S', 0)]
+['a', 'S', 'b', 'S', 'b', 'S']
+---momentary insuccess---
+b 1
+[('S', 0), 'a', ('S', 0)]
+['a', 'S', 'b', 'S', 'b', 'S']
+---another try---
+q 1
+[('S', 0), 'a', ('S', 1)]
+['a', 'S', 'b', 'S']
+---momentary insuccess---
+b 1
+[('S', 0), 'a', ('S', 1)]
+['a', 'S', 'b', 'S']
+---another try---
+q 1
+[('S', 0), 'a', ('S', 2)]
+['', 'b', 'S']
+---momentary insuccess---
+b 1
+[('S', 0), 'a', ('S', 2)]
+['', 'b', 'S']
+---another try---
+b 1
+[('S', 0), 'a']
+['S', 'b', 'S']
+---back---
+b 0
+[('S', 0)]
+['a', 'S', 'b', 'S']
+---another try---
+q 0
+[('S', 1)]
+['a', 'S']
+---advance---
+q 1
+[('S', 1), 'a']
+['S']
+---expand---
+q 1
+[('S', 1), 'a', ('S', 0)]
+['a', 'S', 'b', 'S']
+---momentary insuccess---
+b 1
+[('S', 1), 'a', ('S', 0)]
+['a', 'S', 'b', 'S']
+---another try---
+q 1
+[('S', 1), 'a', ('S', 1)]
+['a', 'S']
+---momentary insuccess---
+b 1
+[('S', 1), 'a', ('S', 1)]
+['a', 'S']
+---another try---
+q 1
+[('S', 1), 'a', ('S', 2)]
+['']
+---momentary insuccess---
+b 1
+[('S', 1), 'a', ('S', 2)]
+['']
+---another try---
+b 1
+[('S', 1), 'a']
+['S']
+---back---
+b 0
+[('S', 1)]
+['a', 'S']
+---another try---
+q 0
+[('S', 2)]
+['']
+---momentary insuccess---
+b 0
+[('S', 2)]
+['']
+---another try---
+b 0
+[]
+['S']
+-------RESULT:-------
+ERROR! @ index: 0

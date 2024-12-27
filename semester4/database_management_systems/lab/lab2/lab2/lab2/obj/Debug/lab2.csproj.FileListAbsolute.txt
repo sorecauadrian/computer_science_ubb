@@ -1,9 +1,0 @@
-C:\Users\adi\source\repos\lab2\lab2\obj\Debug\lab2.csproj.AssemblyReference.cache
-C:\Users\adi\source\repos\lab2\lab2\bin\Debug\lab2.exe.config
-C:\Users\adi\source\repos\lab2\lab2\bin\Debug\lab2.exe
-C:\Users\adi\source\repos\lab2\lab2\bin\Debug\lab2.pdb
-C:\Users\adi\source\repos\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
-C:\Users\adi\source\repos\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.cache
-C:\Users\adi\source\repos\lab2\lab2\obj\Debug\lab2.csproj.CoreCompileInputs.cache
-C:\Users\adi\source\repos\lab2\lab2\obj\Debug\lab2.exe
-C:\Users\adi\source\repos\lab2\lab2\obj\Debug\lab2.pdb

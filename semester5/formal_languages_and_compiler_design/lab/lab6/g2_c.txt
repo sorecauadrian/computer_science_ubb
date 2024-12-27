@@ -1,0 +1,39 @@
+program declaration type type1 arrayType statementList statement assign ifStatement whileStatement forStatement expression operation ralation condition
+start end char int string ; [ ] + - * / % = : > < >= <= == if endif else endelse while endwhile for endfor identifier constant
+program
+program start@statementList@end
+program start@declaration@statementList@end
+declaration type@identifier@;@declaration
+declaration type@identifier@;
+type type1
+type arrayType
+type1 string
+type1 int
+type1 bool
+arrayType type1@[@constantInt@]
+statementList statement@;@statementList
+statementList statement@;
+statement assign
+statement ifStatement
+statement whileStatement
+statement forStatement
+expression constant
+expression identifier
+expression constant@operation@expression
+expression identifier@operation@expression
+operation +
+operation -
+operation *
+operation /
+operation %
+assign identifier@=@expression
+ifStatement if@condition@:@statementList@endif@else@statementList@endelse
+ifStatement if@condition@:@statementList@endif
+whileStatement while@condition@:@statementList@endwhile
+forStatement for@assign@condition@expression@:@statementList@endfor
+relation <
+relation >
+relation ==
+relation >=
+relation <=
+condition expression@relation@expression
