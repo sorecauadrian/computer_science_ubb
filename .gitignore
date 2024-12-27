@@ -1,4 +1,10 @@
 .vs/
 
 obj/
+bin/
 .store/
+
+.idea/
+__pycache__/
+
+.vscode/
