@@ -1,0 +1,3 @@
+/home/adi/university/computer_science_ubb/semester5/parallel_and_distributed_programming/project/threads/cmake-build-debug/CMakeFiles/threads.dir
+/home/adi/university/computer_science_ubb/semester5/parallel_and_distributed_programming/project/threads/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/adi/university/computer_science_ubb/semester5/parallel_and_distributed_programming/project/threads/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/snap/clion/310/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/310/bin/ninja/linux/x64/ninja -G Ninja -S /home/adi/university/computer_science_ubb/semester5/parallel_and_distributed_programming/project/threads -B /home/adi/university/computer_science_ubb/semester5/parallel_and_distributed_programming/project/threads/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/adi/university/computer_science_ubb/semester5/parallel_and_distributed_programming/project/threads/cmake-build-debug
