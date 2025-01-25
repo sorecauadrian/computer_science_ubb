@@ -2,7 +2,7 @@
 
 ### Github Repository
 ##### Find all code, documentation, and version control for the TSQS project.
-[🔗 Github](https://github.com/LeonaPopa/TSQS)
+[🔗 Github](https://github.com/sorecauadrian/TSQS)
 
 ### Figma design files
 ##### View our latest prototypes, wireframes, and UI/UX designs.
