@@ -1,5 +1,0 @@
-package Model;
-
-public interface Participants {
-
-}

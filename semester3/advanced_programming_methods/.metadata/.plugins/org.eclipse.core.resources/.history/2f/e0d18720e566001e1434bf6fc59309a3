@@ -1,9 +1,0 @@
-package Model;
-
-public interface Participants 
-{
-	public String get_name();
-	public String get_role();
-	public String to_string();
-	public boolean presented();
-}
