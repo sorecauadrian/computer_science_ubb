@@ -534,3 +534,83 @@
         </tr>
     </tbody>
 </table>
+
+## semester 6
+
+<table border="3">
+    <thead>
+        <tr>
+            <th>course</th>
+            <th>lecturer</th>
+            <th>10</th>
+            <th>pass</th>
+            <th>observations</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>numerical calculus</td>
+            <td>
+                <a href="https://math.ubbcluj.ro/~smicula/">
+                    micula sanda
+                </a>
+            </td>
+            <td> ⚪ </td>
+            <td> ⚪ </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>preparation of bachelor thesis</td>
+            <td>
+                <a href="https://www.cs.ubbcluj.ro/~avescan/">
+                    vescan andreea
+                </a>
+            </td>
+            <td> ⚪ </td>
+            <td> ⚪ </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>software systems verification and validation</td>
+            <td>
+                <a href="https://www.cs.ubbcluj.ro/~avescan/">
+                    vescan andreea
+                </a>
+            </td>
+            <td> ⚪ </td>
+            <td> ⚪ </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td>blockchain: smart contracts</td>
+            <td>crăciun florin</td>
+            <td> ⚪ </td>
+            <td> ⚪ </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>history of computer science</td>
+            <td>
+                <a href="http://www.cs.ubbcluj.ro/~forest/">
+                    sterca adrian
+                </a>
+            </td>
+            <td> ⚪ </td>
+            <td> ⚪ </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td>entrepreneurship</td>
+            <td>gică oana adriana</td>
+            <td> ⚪ </td>
+            <td> ⚪ </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
