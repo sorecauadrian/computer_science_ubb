@@ -549,7 +549,11 @@
     </thead>
     <tbody>
         <tr>
-            <td>numerical calculus</td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/numerical_calculus">
+                    numerical calculus
+                </a>
+            </td>
             <td>
                 <a href="https://math.ubbcluj.ro/~smicula/">
                     micula sanda
@@ -571,7 +575,10 @@
             <td></td>
         </tr>
         <tr>
-            <td>software systems verification and validation</td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/software_systems_verification_and_validation">
+                    software systems verification and validation
+                </a>
             <td>
                 <a href="https://www.cs.ubbcluj.ro/~avescan/">
                     vescan andreea
