@@ -564,7 +564,11 @@
             <td></td>
         </tr>
         <tr>
-            <td>preparation of bachelor thesis</td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/preparation_of_bachelor_thesis">
+                    preparation of bachelor thesis
+                </a>
+              </td>
             <td>
                 <a href="https://www.cs.ubbcluj.ro/~avescan/">
                     vescan andreea
@@ -599,10 +603,14 @@
             <td></td>
         </tr>
         <tr>
-            <td>history of computer science</td>
             <td>
-                <a href="http://www.cs.ubbcluj.ro/~forest/">
-                    sterca adrian
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/history_of_computer_science">
+                    history of computer science
+                </a>
+            </td>
+            <td>
+                <a href="https://babes.com/">
+                    mircea gabriel
                 </a>
             </td>
             <td> ⚪ </td>
