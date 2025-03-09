@@ -551,7 +551,7 @@
         <tr>
             <td>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/numerical_calculus">
-                    numerical calculus
+                    🧮 numerical calculus
                 </a>
             </td>
             <td>
@@ -566,7 +566,7 @@
         <tr>
             <td>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/preparation_of_bachelor_thesis">
-                    preparation of bachelor thesis
+                    🎓 preparation of bachelor thesis
                 </a>
               </td>
             <td>
@@ -581,7 +581,7 @@
         <tr>
             <td>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/software_systems_verification_and_validation">
-                    software systems verification and validation
+                    🧪 software systems verification and validation
                 </a>
             <td>
                 <a href="https://www.cs.ubbcluj.ro/~avescan/">
@@ -596,7 +596,7 @@
             <td colspan="5"></td>
         </tr>
         <tr>
-            <td>blockchain: smart contracts</td>
+            <td>🪙 blockchain: smart contracts</td>
             <td>crăciun florin</td>
             <td> ⚪ </td>
             <td> ⚪ </td>
@@ -605,7 +605,7 @@
         <tr>
             <td>
                 <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/history_of_computer_science">
-                    history of computer science
+                    ⏳ history of computer science
                 </a>
             </td>
             <td>
@@ -621,7 +621,7 @@
             <td colspan="5"></td>
         </tr>
         <tr>
-            <td>entrepreneurship</td>
+            <td>💸 entrepreneurship</td>
             <td>gică oana adriana</td>
             <td> ⚪ </td>
             <td> ⚪ </td>
