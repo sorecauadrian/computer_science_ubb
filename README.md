@@ -596,7 +596,11 @@
             <td colspan="5"></td>
         </tr>
         <tr>
-            <td>🪙 blockchain: smart contracts</td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/blockchain_smart_contracts">
+                    🪙 blockchain: smart contracts
+                </a>
+            </td>
             <td>crăciun florin</td>
             <td> ⚪ </td>
             <td> ⚪ </td>
