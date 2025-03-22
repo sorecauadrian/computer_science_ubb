@@ -20,19 +20,19 @@ After running the script, a zip file is generated containing PseudoSweep's repor
 
 The generated zip file can help you identify which lines from the provided Java file are pseudo-tested. For the example, as the file i provided has a lot of expressions, i found that there are 23 coverage gaps for the expressions
 
-![expressions.png](https://github.com/sorecauadrian/computer_science_ubb/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/expressions.png)
+![expressions.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/expressions.png)
 
 Following the coverageGap array, we will search for the statement with the id 6
 
-![statement.png](https://github.com/sorecauadrian/computer_science_ubb/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/statement.png)
+![statement.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/statement.png)
 
 As we can see, the pseudo-tested statement starts at line 68 and ends on the same line
 
-![68.png](https://github.com/sorecauadrian/computer_science_ubb/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/68.png)
+![68.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/68.png)
 
 So this means that if we were to remove this line, all the tests would have the same output, thus, even if the tests go throught this line, it is not tested.
 
-![test.png](https://github.com/sorecauadrian/computer_science_ubb/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/test.png)
+![test.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/test.png)
 
 And as we can see, there is not a single string in the test code that contains the "rough", thus confirming that line 68 is not tested properly.
 
@@ -40,7 +40,7 @@ And as we can see, there is not a single string in the test code that contains t
 
 Another example, and easier to understand, is the example displayed in the paper.
 
-![example.png](https://github.com/sorecauadrian/computer_science_ubb/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/example.png)
+![example.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem3/PortfolioToolsSSVV_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/example.png)
 
 As observed, the third line is pseudo-tested as the test only checks for the the strings added in the second and forth line.
 
