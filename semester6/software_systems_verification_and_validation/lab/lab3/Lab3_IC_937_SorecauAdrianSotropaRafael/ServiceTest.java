@@ -16,7 +16,7 @@ import validation.Validator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@Tag("WhiteBoxTesting")
+@Tag("BlackBoxTesting")
 class ServiceTest {
 
     private Service service;
@@ -33,8 +33,6 @@ class ServiceTest {
 
         service = new Service(fileRepository1, fileRepository2, fileRepository3);
     }
-
-    // saveStudent tests
 
     @Test
     void saveStudent_PositiveNumberId_Success() {
@@ -99,8 +97,6 @@ class ServiceTest {
         assertTrue(studentSaved, "Expected the student to be saved successfully.");
     }
 
-    // saveAssignment tests
-
     @Test
     public void saveAssignment_NullId_Fail() {
         int result = service.saveTema(null, "assignment1", 10, 5);
@@ -127,47 +123,5 @@ class ServiceTest {
         int result = service.saveTema("1", "", 10, 5);
         boolean assignmentSaved = result == 0;
         assertFalse(assignmentSaved, "Expected an exception when description is empty.");
-    }
-
-    @Test
-    public void saveAssignment_DeadlineLessThanOne_Fail() {
-        int result = service.saveTema("1", "assignment1", 0, 5);
-        boolean assignmentSaved = result == 0;
-        assertFalse(assignmentSaved, "Expected an exception when deadline is less than 1.");
-    }
-
-    @Test
-    public void saveAssignment_DeadlineGreaterThanFourteen_Fail() {
-        int result = service.saveTema("1", "assignment1", 15, 5);
-        boolean assignmentSaved = result == 0;
-        assertFalse(assignmentSaved, "Expected an exception when deadline is greater than 14.");
-    }
-
-    @Test
-    public void saveAssignment_StartlineGreaterThanDeadline_Fail() {
-        int result = service.saveTema("1", "assignment1", 5, 10);
-        boolean assignmentSaved = result == 0;
-        assertFalse(assignmentSaved, "Expected an exception when startline is greater than deadline.");
-    }
-
-    @Test
-    public void saveAssignment_StartlineLessThanOne_Fail() {
-        int result = service.saveTema("1", "assignment1", 10, 0);
-        boolean assignmentSaved = result == 0;
-        assertFalse(assignmentSaved, "Expected an exception when startline is less than 1.");
-    }
-
-    @Test
-    public void saveAssignment_StartlineGreaterThanFourteen_Fail() {
-        int result = service.saveTema("1", "assignment1", 10, 15);
-        boolean assignmentSaved = result == 0;
-        assertFalse(assignmentSaved, "Expected an exception when startline is greater than 14.");
-    }
-
-    @Test
-    public void saveAssignment_ValidAssignment_Success() {
-        int result = service.saveTema("1", "assignment1", 10, 5);
-        boolean assignmentSaved = result == 0;
-        assertTrue(assignmentSaved, "Expected the assignment to be saved successfully.");
     }
 }

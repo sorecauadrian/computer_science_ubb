@@ -8,3 +8,6 @@ bin/
 __pycache__/
 
 .vscode/
+
+**/target/
+**/allure-results/

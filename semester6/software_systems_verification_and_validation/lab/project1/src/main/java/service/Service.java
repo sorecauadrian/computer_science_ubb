@@ -34,9 +34,9 @@ public class Service {
         Student result = studentXmlRepo.save(student);
 
         if (result == null) {
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 
     public int saveTema(String id, String descriere, int deadline, int startline) {
@@ -44,9 +44,9 @@ public class Service {
         Tema result = temaXmlRepo.save(tema);
 
         if (result == null) {
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 
     public int saveNota(String idStudent, String idTema, double valNota, int predata, String feedback) {
@@ -65,9 +65,9 @@ public class Service {
             Nota result = notaXmlRepo.save(nota);
 
             if (result == null) {
-                return 0;
+                return 1;
             }
-            return 1;
+            return 0;
         }
     }
 
@@ -75,18 +75,18 @@ public class Service {
         Student result = studentXmlRepo.delete(id);
 
         if (result == null) {
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 
     public int deleteTema(String id) {
         Tema result = temaXmlRepo.delete(id);
 
         if (result == null) {
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 
     public int updateStudent(String id, String numeNou, int grupaNoua) {
@@ -94,9 +94,9 @@ public class Service {
         Student result = studentXmlRepo.update(studentNou);
 
         if (result == null) {
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 
     public int updateTema(String id, String descriereNoua, int deadlineNou, int startlineNou) {
@@ -104,9 +104,9 @@ public class Service {
         Tema result = temaXmlRepo.update(temaNoua);
 
         if (result == null) {
-            return 0;
+            return 1;
         }
-        return 1;
+        return 0;
     }
 
     public int extendDeadline(String id, int noWeeks) {
