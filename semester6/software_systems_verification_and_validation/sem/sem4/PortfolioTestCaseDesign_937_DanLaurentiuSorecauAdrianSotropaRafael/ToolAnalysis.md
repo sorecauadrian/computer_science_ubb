@@ -12,25 +12,25 @@ The Pynguin team provides a [Github Repository](https://github.com/se2p/pynguin/
 
 After running the script, a .py file was generated containing unit tests.
 
-![script.png](\\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester6\software_systems_verification_and_validation\sem\sem4\PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael\screenshots\script.png)
+![script.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem4/PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/script.png)
 
-![test.png](\\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester6\software_systems_verification_and_validation\sem\sem4\PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael\screenshots\test.png)
+![test.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem4/PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/test.png)
 
 #### Using the tool
 
 For the examples provided by them, 
 
-![example.png](\\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester6\software_systems_verification_and_validation\sem\sem4\PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael\screenshots\example.png)
+![example.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem4/PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/example.png)
 
 the coverage was 100%. 
 
 Using it was straight-forward, i just had to run the tests to see if they work or not. In the command line I could see the progress of the test-generation scripts and the phases Pynguin went through until it decided to stop.
 
-![phase1.png](\\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester6\software_systems_verification_and_validation\sem\sem4\PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael\screenshots\phase1.png)
+![phase1.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem4/PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/phase1.png)
 
 Mutations were one important phase of test-generation as it removed useless lines from the tests so they are optimised.
 
-![phase2.png](\\wsl.localhost\Ubuntu\home\sorecauadrian\computer_science_ubb\semester6\software_systems_verification_and_validation\sem\sem4\PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael\screenshots\phase2.png)
+![phase2.png](https://github.com/sorecauadrian/computer_science_ubb/blob/master/semester6/software_systems_verification_and_validation/sem/sem4/PortfolioTestCaseDesign_937_DanLaurentiuSorecauAdrianSotropaRafael/screenshots/phase2.png)
 
 #### Findings and benefits
 
