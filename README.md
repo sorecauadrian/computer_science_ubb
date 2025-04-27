@@ -625,7 +625,11 @@
             <td colspan="5"></td>
         </tr>
         <tr>
-            <td>💸 entrepreneurship</td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/semester6/entrepreneurship">
+                    💸 entrepreneurship
+                </a>
+            </td>
             <td>gică oana adriana</td>
             <td> ⚪ </td>
             <td> ⚪ </td>
