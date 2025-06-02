@@ -559,8 +559,8 @@
                     micula sanda
                 </a>
             </td>
-            <td> ⚪ </td>
-            <td> ⚪ </td>
+            <td> ⚫ </td>
+            <td> 🟠 </td>
             <td></td>
         </tr>
         <tr>
@@ -574,8 +574,8 @@
                     vescan andreea
                 </a>
             </td>
-            <td> ⚪ </td>
-            <td> ⚪ </td>
+            <td> 🟢 </td>
+            <td> 🟢 </td>
             <td></td>
         </tr>
         <tr>
@@ -588,8 +588,8 @@
                     vescan andreea
                 </a>
             </td>
-            <td> ⚪ </td>
-            <td> ⚪ </td>
+            <td> 🟡 </td>
+            <td> 🟢 </td>
             <td></td>
         </tr>
         <tr>
@@ -602,8 +602,8 @@
                 </a>
             </td>
             <td>crăciun florin</td>
-            <td> ⚪ </td>
-            <td> ⚪ </td>
+            <td> 🟢 </td>
+            <td> 🟢 </td>
             <td></td>
         </tr>
         <tr>
@@ -617,8 +617,8 @@
                     mircea gabriel
                 </a>
             </td>
-            <td> ⚪ </td>
-            <td> ⚪ </td>
+            <td> 🔴 </td>
+            <td> 🟡 </td>
             <td></td>
         </tr>
         <tr>
@@ -631,8 +631,8 @@
                 </a>
             </td>
             <td>gică oana adriana</td>
-            <td> ⚪ </td>
-            <td> ⚪ </td>
+            <td> 🔴 </td>
+            <td> 🟡 </td>
             <td></td>
         </tr>
     </tbody>
