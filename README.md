@@ -7,9 +7,10 @@
         <tr>
             <th>course</th>
             <th>lecturer</th>
+            <th>seminar tutor</th>
+            <th>lab tutor</th>
             <th>10</th>
             <th>pass</th>
-            <th>observations</th>
         </tr>
     </thead>
     <tbody>
@@ -19,10 +20,11 @@
                     🔟 computational logic
                 </a>
             </td>
-            <td>lupea mihaiela</td>
+            <td>lupea mihaela-ana</td>
+            <td>lupea mihaela-ana</td>
+            <td> - </td>
             <td> 🟠 </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -35,9 +37,10 @@
                     vancea alexandru
                 </a>
             </td>
+            <td> - </td>
+            <td>bodea nicolae</td>
             <td> ⚫ </td>
             <td> 🔴 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -46,9 +49,10 @@
                 </a>
             </td>
             <td>molnar arthur</td>
+            <td>molnar arthur</td>
+            <td>zsigmond imre</td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>🔢 linear algebra</td>
@@ -57,9 +61,10 @@
                     crivei septimiu
                 </a>
             </td>
+            <td>chiru iulia-elena</td>
+            <td> - </td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -72,9 +77,10 @@
                     nechita mihai
                 </a>
             </td>
+            <td>viorel adrian</td>
+            <td> - </td>
             <td> 🟠 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td colspan="5"></td>
@@ -90,16 +96,18 @@
                     motogna simona
                 </a>
             </td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>🏃 physical education 1</td>
             <td>moca cosmin mihai</td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -108,9 +116,10 @@
                 </a>
             </td>
             <td>pop luminița</td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -122,9 +131,10 @@
         <tr>
             <th>course</th>
             <th>lecturer</th>
+            <th>seminar tutor</th>
+            <th>lab tutor</th>
             <th>10</th>
             <th>pass</th>
-            <th>observations</th>
         </tr>
     </thead>
     <tbody>
@@ -139,9 +149,10 @@
                     lupșa dana
                 </a>
             </td>
+            <td>lupșa dana</td>
+            <td>briciu anamaria</td>
             <td> 🔴 </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -154,9 +165,10 @@
                     buică adriana
                 </a>
             </td>
+            <td>viorel adrian</td>
+            <td>stan andrei</td>
             <td> 🔴 </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -169,9 +181,10 @@
                     simion iulian-ion
                 </a>
             </td>
+            <td>micu tudor</td>
+            <td> - </td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -184,9 +197,10 @@
                     lupșa radu-lucian
                 </a>
             </td>
+            <td>lupșa radu-lucian</td>
+            <td>lupea mihaela-ana</td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -199,9 +213,10 @@
                     bocicor iuliana
                 </a>
             </td>
+            <td>morarescu cristina</td>
+            <td>bajcsi adel</td>
             <td> 🔴 </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -214,9 +229,10 @@
                     boian rareș florin
                 </a>
             </td>
+            <td>cojocar dan / grebla horea-adrian</td>
+            <td>țicle daniel-ioan / mureșan horea-bogdan</td>
             <td> 🔴 </td>
             <td> 🔴 </td>
-            <td></td>
         </tr>
         <tr>
             <td colspan="5"></td>
@@ -228,16 +244,18 @@
                     suciu dan mircea
                 </a>
             </td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>🏃 physical education 2</td>
             <td>moca cosmin mihai</td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -249,9 +267,10 @@
         <tr>
             <th>course</th>
             <th>lecturer</th>
+            <th>seminar tutor</th>
+            <th>lab tutor</th>
             <th>10</th>
             <th>pass</th>
-            <th>observations</th>
         </tr>
     </thead>
     <tbody>
@@ -262,9 +281,10 @@
                 </a>
             </td>
             <td>crăciun florin</td>
+            <td>crăciun florin</td>
+            <td>foldvari hárold-nimrod</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -277,9 +297,10 @@
                     darabant sergiu adrian
                 </a>
             </td>
+            <td> - </td>
+            <td>marinescu alexandru-ion</td>
             <td> 🟡 </td>
-            <td> 🟢 </td>
-            <td></td>
+            <td> 🟢 </td>            
         </tr>
         <tr>
             <td>
@@ -292,9 +313,10 @@
                     surdu sabina
                 </a>
             </td>
+            <td>coste claudia-ioana</td>
+            <td>ionuț andreea</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -307,9 +329,10 @@
                     pop horia
                 </a>
             </td>
+            <td>mureșan horea-bogdan</td>
+            <td>coroiu adriana mihaela</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -322,9 +345,10 @@
                     micula sanda
                 </a>
             </td>
+            <td>iancu mihai</td>
+            <td>minuță virgilius-aurelian</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td colspan="5"></td>
@@ -336,9 +360,10 @@
                 </a>
             </td>
             <td>manlup nicoleta-maria</td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -350,9 +375,10 @@
         <tr>
             <th>course</th>
             <th>lecturer</th>
+            <th>seminar tutor</th>
+            <th>lab tutor</th>
             <th>10</th>
             <th>pass</th>
-            <th>observations</th>
         </tr>
     </thead>
     <tbody>
@@ -367,9 +393,10 @@
                     mihoc tudor
                 </a>
             </td>
+            <td> - </td>
+            <td>chiș raluca-diana</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -382,9 +409,10 @@
                     surdu sabina
                 </a>
             </td>
+            <td>coste claudia-ioana</td>
+            <td>catargiu ecaterina-georgiana</td>
             <td> 🟠 </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -393,9 +421,10 @@
                 </a>
             </td>
             <td>zsigmond imre</td>
+            <td>mali imre-gergely</td>
+            <td>zsigmond imre</td>
             <td> ⚫ </td>
             <td> 🔴 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -408,9 +437,10 @@
                     mircea gabriel
                 </a>
             </td>
+            <td>truța diana</td>
+            <td>truța diana</td>
             <td> 🔴 </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -423,9 +453,10 @@
                     sterca adrian
                 </a>
             </td>
+            <td> - </td>
+            <td>tariuc ana-maria</td>
             <td> 🟡 </td>
             <td> 🟡 </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -437,9 +468,10 @@
         <tr>
             <th>course</th>
             <th>lecturer</th>
+            <th>seminar tutor</th>
+            <th>lab tutor</th>
             <th>10</th>
             <th>pass</th>
-            <th>observations</th>
         </tr>
     </thead>
     <tbody>
@@ -454,9 +486,10 @@
                     motogna simona
                 </a>
             </td>
+            <td>petrascu vladiela</td>
+            <td>berciu liviu</td>
             <td> 🔴 </td>
             <td> 🟡 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -469,9 +502,10 @@
                     cojocar dan
                 </a>
             </td>
+            <td> - </td>
+            <td>cojocar dan</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -484,9 +518,10 @@
                     lupșa radu-lucian
                 </a>
             </td>
+            <td> - </td>
+            <td>marinescu alexandru</td>
             <td> 🟠 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td colspan="5"></td>
@@ -498,9 +533,10 @@
                 </a>
             </td>
             <td>ileni tudor-alexandru / roja alexandru-ionuț</td>
+            <td> - </td>
+            <td> - </td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -513,9 +549,10 @@
                     pop andreea-diana
                 </a>
             </td>
+            <td> - </td>
+            <td>belciug daniel</td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -528,9 +565,10 @@
                     suciu mihai
                 </a>
             </td>
+            <td> - </td>
+            <td>suciu mihai</td>
             <td> 🟠 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
@@ -542,9 +580,10 @@
         <tr>
             <th>course</th>
             <th>lecturer</th>
+            <th>seminar tutor</th>
+            <th>lab tutor</th>
             <th>10</th>
             <th>pass</th>
-            <th>observations</th>
         </tr>
     </thead>
     <tbody>
@@ -559,9 +598,10 @@
                     micula sanda
                 </a>
             </td>
+            <td> - </td>
+            <td>iancu mihai</td>
             <td> ⚫ </td>
             <td> 🟠 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -574,9 +614,10 @@
                     vescan andreea
                 </a>
             </td>
+            <td> - </td>
+            <td>pop andreea-diana</td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -588,9 +629,10 @@
                     vescan andreea
                 </a>
             </td>
+            <td>iudean bogdan</td>
+            <td>iudean bogdan</td>
             <td> 🟡 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td colspan="5"></td>
@@ -602,9 +644,10 @@
                 </a>
             </td>
             <td>crăciun florin</td>
+            <td> - </td>
+            <td>foldvari hárold-nimrod</td>
             <td> 🟢 </td>
             <td> 🟢 </td>
-            <td></td>
         </tr>
         <tr>
             <td>
@@ -617,9 +660,10 @@
                     mircea gabriel
                 </a>
             </td>
+            <td> - </td>
+            <td> - </td>
             <td> 🔴 </td>
             <td> 🟡 </td>
-            <td></td>
         </tr>
         <tr>
             <td colspan="5"></td>
@@ -631,9 +675,59 @@
                 </a>
             </td>
             <td>gică oana adriana</td>
+            <td>gică oana adriana</td>
+            <td> - </td>
             <td> 🔴 </td>
             <td> 🟡 </td>
-            <td></td>
         </tr>
     </tbody>
 </table>
+
+
+## bachelor
+
+<table border="3">
+    <thead>
+        <tr>
+            <th>title</th>
+            <th>coordinator</th>
+            <th>exam</th>
+            <th>presentation</th>
+            <th>thesis</th>
+            <th>application</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                holistic wellness assistant for guided meditation and reflective moments (wlad: where life aligns daily)
+            </td>
+            <td>
+                pop ioan-daniel
+            </td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/bachelor/exam">
+                    🔗
+                </a>
+            </td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/bachelor/presentation">
+                    🔗
+                </a>
+            </td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/bachelor/thesis">
+                    🔗
+                </a>
+            </td>
+            <td>
+                <a href="https://github.com/sorecauadrian/computer_science_ubb/tree/master/bachelor/application">
+                    🔗
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
